@@ -1,0 +1,143 @@
+.infidea {
+	width: 100%;
+	min-width:1000px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+.banner-wrap {
+	display: block;
+	width: 1600px;
+	height:938px;
+	position: relative;
+	margin-left:-800px;
+	left:50%;
+	background:url('../../img/main/index/banner.jpg') no-repeat;
+	position: relative;
+}
+
+.regist-bg {
+	display: block;
+	position: absolute;
+	width: 1600px;
+	height: 938px;
+	left:0;
+	top:0;
+}
+
+
+.btn-wrap {
+	width: 246px;
+	position: absolute;
+	margin-left:-123px;
+	left:50%;
+	top:173px;
+	z-index:200;
+}
+
+.btn-wrap .btner a {
+	background-image:url('../../img/lib/button/button.png');
+	background-repeat: no-repeat;
+	height: 44px;
+	text-align: center;
+	line-height: 44px;
+	display: block;
+	color:#fff;
+	font-size: 14px;
+}
+
+.btn-wrap .login-btn a {
+	background-position: 0 0;
+	width: 81px;
+}
+
+.btn-wrap .regist-btn a {
+	background-position: -114px 0;
+	width: 132px;
+}
+
+.block-wrap {
+	width: 100%;
+	height: 460px;
+	color:#303538;
+	font-size: 14px;
+	font-family: Microsoft Yahei;
+	padding:20px 0 0 0;
+}
+
+.block-wrap .block {
+	width: 678px;
+	height: 460px;
+	margin:0 auto;
+}
+
+.block-wrap .block h2 {
+	font-size: 36px;
+	text-align: center;
+}
+
+.gray {
+	background: #edf1f1;
+}
+
+.step1 {
+	background:url('../../img/main/index/pic1.jpg') no-repeat right 35px;
+}
+
+.step2 {
+	background:url('../../img/main/index/pic2.jpg') no-repeat left bottom;
+}
+
+.step3 {
+	background:url('../../img/main/index/pic3.jpg') no-repeat center 100px;
+}
+
+.text {
+	width: 230px;
+}
+
+.text p {
+	line-height: 30px;
+}
+
+.pt_66 {
+	padding-top: 66px;
+}
+
+
+.w_678 {
+	width: 678px!important;
+}
+
+.test {
+	position: absolute;
+	width: 200px;
+	height: 45px;
+	background: #a2c437;
+	border:1px solid #789717;
+	text-align: center;
+	line-height: 45px;
+	margin-left:-100px;
+	left:50%;
+	bottom: 35px;
+	color:#fff;
+}
+
+.test:hover {
+	color:#fff;
+}
+
+#QQASK {
+	width: 170px;
+	height: 150px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	background: url('../../img/lib/bg/ask.png') no-repeat;
+	cursor: pointer;
+}
+
+
+

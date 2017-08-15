@@ -1,0 +1,20 @@
+{{each data.shoplist}}
+<li class="main clearfix">
+	<dl>
+		<dt>
+			<img src="{{$value.shop_pic1}}">
+		</dt>
+		<dd>
+			<ul>
+				<li><span class="bold mr_2">店铺名称:</span>{{cut $value.shop_name 7}}</li>
+				<li><span class="bold mr_2">店铺地址:</span>{{cut $value.shop_address 7}}</li>
+				<li><span class="bold mr_2">电话:</span>{{$value.shop_tel}}</li>
+				<a href="{{$value.shop_url}}" class="entry-btn">
+					<span>进入店铺</span>
+					<span class="entry-logo"></span>
+				</a>
+			</ul>
+		</dd>
+	</dl>
+</li>
+{{/each}}

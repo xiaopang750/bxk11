@@ -1,0 +1,5 @@
+.wrong_area {height:19px;position: relative;display: inline-block;margin:1px 0;float:right;visibility: hidden;overflow: hidden;}
+.wrong_area.wrong {visibility: visible;}
+.wrong_area span {display: inline-block;}
+.wrong_content {height:15px;padding:0 10px;line-height: 15px;color:#fff;background: #f00;overflow: hidden;white-space: nowrap}
+.wrrong_bot {position: absolute;top: 15px;right:0;width:10px;height:4px;background:url('../../../images/lib/icon/icon.gif') no-repeat -3px -297px;}

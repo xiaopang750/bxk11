@@ -1,0 +1,2 @@
+/*! fanwei 2014-03-10 */
+define("global/navhilight-debug",[],function(){var t=$("body").attr("page-role"),e=$("[script-role = main_nav]").find("[script-role = text]"),n=$("[script-role = product_footer]").find("[script-role = product_list]");e.each(function(n){t==e.eq(n).text()&&e.eq(n).addClass("active")}),n.each(function(e){t==n.eq(e).text()&&n.eq(e).addClass("active")})});

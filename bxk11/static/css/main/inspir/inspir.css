@@ -1,0 +1,34 @@
+.main_content {margin-top:20px;}
+.inspir_leftnav {width:140px;height:540px;background:#eee;}
+.right_area {width: 848px;overflow: hidden;}
+.monsary_wrap {width: 848px;}
+.list_wrap {margin-top: 13px;}
+.list_wrap h3 {font-size: 16px;color: #4a5054;margin-bottom: 8px;padding-left:20px;cursor: pointer;}
+.list_wrap h3.slide {color:#209cd1;}
+.list_wrap ul {display: none;}
+.list_wrap ul li {font-size: 14px;}
+.list_wrap ul li a {display: block;width:140px;height: 23px;line-height: 23px;text-align: center;color:#4d4d4d;}
+.list_wrap ul li a.actb {background: #008fcc;color:#fff;}
+
+.inpir_banner {width:848px;height:275px;position: relative;}
+.banner_shadow {width:330px;height:154px;background: #000;opacity: 0.6;filter: alpha(opacity=60);position: absolute;left:16px;top:26px;z-index: 1;}
+.banner_lay {width:330px;height:154px;position: absolute;left:16px;top:26px;z-index: 2;color:#fff;}
+.banner_lay .inner {width:294px;height:124px;margin:12px auto 0 auto;position: relative;}
+.banner_lay .count a:hover {text-decoration: underline;color:#edaf12;}
+.banner_lay .bot {position: absolute;left:0;bottom: 0}
+.banner_lay .bot a {color:#fff;}
+.banner_lay .bot a:hover {text-decoration: underline;}
+
+.inspir_nav {width:848px;height:36px;background: #f6f6f6;}
+.inspir_nav ul li {float:left;}
+.inspir_nav ul li a {display: block;width:422px;height:34px;background: #f6f6f6;border:1px solid #f6f6f6;text-align: center;line-height: 34px;color:#4d4d4d;font-size:16px;}
+.inspir_nav ul li a:hover,.inspir_nav ul li a.actb {background: #008fcc;color:#fff;}
+.shadow_848 {background: url(../../../images/lib/bg/shadow_848.png) no-repeat;width:848px;height:24px;}
+.side_bar {position: fixed;_position:absolute;right:50px;top:59px;}
+.tag_area {width:848px;height:34px;background: #F6F6F6;color:#4d4d4d;}
+.tag_main {width:480px;height:20px;overflow: hidden;}
+.tag_main  {float:left;}
+.tag_main  a {display: block;text-align: center;color:#fff;margin-right: 2px;color:#4d4d4d;display: inline-block;padding:2px 5px;margin-bottom: 5px;}
+.tag_main  a:hover,.tag_main a.actb {background: #008fcc;color:#fff;}
+
+

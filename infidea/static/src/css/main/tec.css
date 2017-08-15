@@ -1,0 +1,83 @@
+.first-bg {
+	background: url('../../img/lib/bg/slide_bg.jpg') repeat;
+}
+
+.bg {
+	width: 100%;
+	height: 440px;
+}
+
+.main {
+	width: 1000px;
+	margin:0 auto;
+	position: relative;
+}
+
+.last-bg {
+	background: url('../../img/lib/bg/slide_bg1.jpg') repeat;
+}
+
+.logo {
+	position: absolute;
+}
+
+.logo-1 {
+	background: url('../../img/main/tec/step1.png') no-repeat;
+	width: 660px;
+	height: 346px;
+	right:0;
+	top:43px;
+}
+
+.logo-2 {
+	background: url('../../img/main/tec/step2.png') no-repeat;
+	width: 601px;
+	height: 357px;
+	left:0;
+	top:43px;
+}
+
+.logo-2 .flash {
+	width: 576px;
+	height: 298px;
+	margin:13px auto 0 auto;
+}
+
+.logo-3 {
+	background: url('../../img/main/tec/step3.png') no-repeat;
+	width: 470px;
+	height: 389px;
+	right:0;
+	top:43px;
+}
+
+.title {
+	height: 31px;
+	line-height: 31px;
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.title .first {
+	display: block;
+	width: 20px;
+	background: #000;
+	color:#fff;
+	text-align: center;
+	overflow: hidden;
+	float: left;
+}
+
+.title .sec {
+	margin:0 5px 0 2px;
+}
+
+.title .other {
+	letter-spacing: 5px;
+}
+
+.dec {
+	line-height: 30px;
+	width: 377px;
+	font-size: 14px;
+}

@@ -1,0 +1,36 @@
+#header178 a {color:#333;}
+#header178 a:hover {color:#008fcc;}
+#header178 {width:100%;height: 48px;background:url('../../../images/lib/bg/header_bg.gif') repeat;position: fixed;_position: static;z-index:2100;top:0;left:0;}
+#header178 .logo {height:45px;overflow: hidden;}
+#header178 .header_inner {width:1000px;height:45px;margin:0 auto;}
+#header178 .logo {margin:0 31px 0 0;padding-left:37px;}
+
+#header178 .header_search,#header178 .upload_wrap {position: relative;height: 38px;margin-top:7px;z-index: 20;}
+#header178 .upload_wrap.actw .upload_slide{display: block;}
+
+#header178 .upload_wrap.actw .upload_text {color:#008fcc;}
+
+#header178 .upload_slide {width:108px;background: #fff;position: absolute;top:40px;left:0;border:1px solid #65655e;border-top:none;display:none;}
+#header178 .upload_slide ul li {height:35px;line-height: 35px;}
+#header178 .upload_slide ul li span {position: relative;top:13px;left:12px;}
+#header178 .upload_slide ul li a {margin-left:18px;}
+#header178 .func_area .fntop {position: relative;top:8px;}
+#header178 .w41 {width:41px;}
+
+#header178 .login_before a {color:#fff;}
+#header178 .header_nav ul {margin-top:18px;width:222px;margin-right:82px;}
+#header178 .header_nav ul li {float:left;font-size: 16px;margin-right: 19px;}
+#header178 .header_nav ul li a {color:#fff;}
+#header178 .header_nav ul li a:hover,#header178 .header_nav ul li a.actb {color:#008fcc;}
+#header178 .login_after {position: relative;z-index: 20;}
+#header178 .login_after .user_pic {width:40px;height: 40px;overflow: hidden;}
+#header178 .slide_info {position: absolute;left:-95px;top:0;width:135px;top:42px;font-size: 12px;display: none;}
+#header178 .my_list {background: #fff;}
+#header178 .login_out {background: #4d4d4d;}
+#header178 .login_out a {display: block;width:135px;height:27px;;line-height: 27px;color:#fff;}
+#header178 .login_out a:hover {color:#fff;}
+#header178 .my_list ul li a {display: block;width:135px;height: 20px;line-height: 20px;}
+#header178 .my_list ul li a span {margin-left:13px;}
+#header178 .base_info {border-bottom: 1px solid #b9b9b9}
+#header178 .tool,#header178 .about {border-top:1px solid #949494;border-bottom:1px solid #a6a6a6;} 
+#header178_placeholder {width: 100%;height: 48px;overflow: hidden;_display:none;}

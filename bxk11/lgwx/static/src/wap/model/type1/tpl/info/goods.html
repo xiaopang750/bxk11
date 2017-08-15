@@ -1,0 +1,12 @@
+{{each data.likegoodslist}}
+<li class="mb_10 sh">
+	<dl>
+		<dt><a href="{{$value.goods_url}}"><img src="{{$value.goods_pic}}"></a></dt>
+		<dd class="clearfix">
+			<span class="fl mr_10">{{$value.goods_name.length > 8 ? $value.goods_name.substring(0, 8) + '...' : $value.goods_name}}</span>
+			<span class="fl pink">{{$value.goods_price}}</span>
+			<!-- <span class="fr" script-role="fav" target="{{$value.like_url}}" is_like="1" gid="{{$value.goods_id}}">取消收藏</span> -->
+		</dd>
+	</dl>
+</li>
+{{/each}}

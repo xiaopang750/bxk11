@@ -1,0 +1,125 @@
+.entry-logo {
+	background:url('../../images/lib/icon/icon.png') no-repeat 0 -236px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin-top:-11px;
+	top:50%;
+	right:10px;
+}
+
+.fav-logo {
+	background:url('../../images/lib/icon/icon.png') no-repeat -55px -233px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+
+.entry-btn {
+	background: #fb7b9c;
+	display: inline-block;
+	width: 122px;
+	height: 30px;
+	position: relative;
+	line-height: 30px;
+	font-size: 1.4em;
+	color: #fff;
+}
+
+.entry-btn span {
+	margin-left:10px;
+}
+
+.faver-logo {
+	background:url('../../images/lib/icon/icon.png') no-repeat -108px -193px;
+	display: inline-block;
+	width: 44px;
+	height: 38px;
+}
+
+.small-fav-logo {
+	background:url('../../images/lib/icon/icon.png') no-repeat -181px -196px;
+	display: inline-block;
+	width: 22px;
+	height: 18px;
+}
+
+.faver {
+	background:url('../../images/lib/icon/icon.png') no-repeat -351px -196px;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+
+.faver.active {
+	background-position: -351px -240px;
+}
+
+.loc {
+	background:url('../../images/lib/icon/icon.png') no-repeat -293px -90px;
+	display: inline-block;
+	width: 25px;
+	height: 33px;
+}
+
+.loc.active {
+	background:url('../../images/lib/icon/icon.png') no-repeat -293px -140px;
+	display: inline-block;
+	width: 25px;
+	height: 33px;
+}
+
+.diary {
+	background:url('../../images/lib/icon/icon.png') no-repeat -240px -196px;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+
+.rock {
+	background:url('../../images/lib/icon/icon.png') no-repeat -296px -196px;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+
+.point {
+	background:url('../../images/lib/icon/icon.png') no-repeat -184px -240px;
+	display: inline-block;
+	width: 27px;
+	height: 29px;
+}
+
+.point.active {
+	background:url('../../images/lib/icon/icon.png') no-repeat -184px -269px;
+	display: inline-block;
+	width: 27px;
+	height: 29px;
+}
+
+/* level2 */
+.level2-icon {
+	background-image:url('../../images/lib/icon/icon.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.level2-icon.person {
+	width: 33px;
+	height: 32px;
+	background-position: -240px -259px;
+	position: absolute;
+	top:15px;
+	left:20px;	
+}
+
+.level2-icon.home {
+	width: 32px;
+	height: 29px;
+	background-position: -293px -259px;
+	position: absolute;
+	top:15px;
+	right:20px;	
+}
+

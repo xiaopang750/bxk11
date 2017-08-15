@@ -1,0 +1,11 @@
+.product .header {background: #2f3535;height:3rem;line-height: 3rem;width: 100%;}
+.product .header ul {width: 90%;margin:0 auto;}
+.product .header ul li:last-child {;padding:0.2em!important;}
+.product .header ul li dl {width: 100%;}
+.product .main dl {background: #fff;}
+.product .main li img {width: 100%;display: block;	}
+.product .main li dl dt,.product .main li dl dd {width: 50%;}
+.product .main li dl dd .inner {width: 90%;margin:1em;margin-bottom:0;}
+.product .main li:nth-child(odd) dt,.product .main li:nth-child(odd) dd {float: left;}
+.product .main li:nth-child(even) dt,.product .main li:nth-child(even) dd {float: right;}
+

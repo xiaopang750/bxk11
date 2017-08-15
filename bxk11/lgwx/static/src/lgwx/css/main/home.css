@@ -1,0 +1,136 @@
+.fast-layer {
+	text-align: center;
+}
+
+.fast-layer .icon-normal {
+	
+}
+
+.fast-layer div .list {
+	display: inline-block;
+	width: 96px;
+	text-align: center;
+	padding:10px 0;
+	border-radius: 2px;
+	margin:5px;
+}
+
+.fast-layer div .list .text {
+	display: block;
+	margin-top:5px;
+	color:#fff;
+}
+
+.fast-layer div .list.reg {
+	background: #3e76af;
+	background: -webkit-linear-gradient(top, #5ba4cb 0%,#3e76af 100%);
+	background: -moz-linear-gradient(top, #5ba4cb 0%,#3e76af 100%);
+	background: -ms-linear-gradient(top, #5ba4cb 0%,#3e76af 100%);
+	background: -o-linear-gradient(top, #5ba4cb 0%,#3e76af 100%);
+	border:1px solid #3e76af;
+}
+
+.fast-layer div .list.manage-brand {
+	background: #a34c4c;
+	background: -webkit-linear-gradient(top, #c57878 0%,#a34c4c 100%);
+	background: -moz-linear-gradient(top, #c57878 0%,#a34c4c 100%);
+	background: -ms-linear-gradient(top, #c57878 0%,#a34c4c 100%);
+	background: -o-linear-gradient(top, #c57878 0%,#a34c4c 100%);
+	border:1px solid #a34c4c;
+}
+
+.fast-layer div .list.manage-shop {
+	background: #609c3d;
+	background: -webkit-linear-gradient(top, #95c161 0%,#609c3d 100%);
+	background: -moz-linear-gradient(top, #95c161 0%,#609c3d 100%);
+	background: -ms-linear-gradient(top, #95c161 0%,#609c3d 100%);
+	background: -o-linear-gradient(top, #95c161 0%,#609c3d 100%);
+	border:1px solid #609c3d;
+}
+
+.fast-layer div .list.bind-weixin {
+	background: #5897c3;
+	background: -webkit-linear-gradient(top, #6cb4d4 0%,#5897c3 100%);
+	background: -moz-linear-gradient(top, #6cb4d4 0%,#5897c3 100%);
+	background: -ms-linear-gradient(top, #6cb4d4 0%,#5897c3 100%);
+	background: -o-linear-gradient(top, #6cb4d4 0%,#5897c3 100%);
+	border:1px solid #5897c3;
+}
+
+.fast-layer div .list.share {
+	background: #c07833;
+	background: -webkit-linear-gradient(top, #d4a34b 0%,#c07833 100%);
+	background: -moz-linear-gradient(top, #d4a34b 0%,#c07833 100%);
+	background: -ms-linear-gradient(top, #d4a34b 0%,#c07833 100%);
+	background: -o-linear-gradient(top, #d4a34b 0%,#c07833 100%);
+	border:1px solid #c07833;
+}
+
+.news-contain {
+	width: 100%;
+	border:1px solid #cdcdcd;
+}
+
+.industry-news {
+	width: 60%;
+}
+
+.active-news {
+	width: 38%;
+}
+
+.news-contain dt {
+	height: 37px;
+	line-height: 37px;
+	font-weight: bold;
+	background: -webkit-linear-gradient(top, #fbfbfb 0%,#e8e8e8 100%);
+	border-bottom: 1px solid #cdcdcd;
+}
+
+.news-contain dt span {
+	margin-left:10px;
+}
+
+.news-contain dd {
+	background: #f7f7f7;
+	padding:10px;
+	height:85px;
+	overflow: hidden;
+}
+
+
+/* share-box */
+.share-box {
+	display: none;
+	width: 666px;
+	height: 416px;
+	background: #fff;
+	overflow: hidden;
+}
+
+.share-box .inner {
+	width: 510px;
+	height: 230px;
+	margin:82px auto 0 auto;
+}
+
+.share-box textarea {
+	width: 498px;
+	height: 133px;
+	border:1px solid #bbbbbb;
+	padding:5px;
+	font-size: 14px;
+	color:#000;
+	line-height: 28px;
+}
+
+.share-close {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	width: 16px;
+	height: 16px;
+	line-height: 999em;
+	overflow: hidden;
+	background: url("../../img/lib/icon/weixin_menu.png") 0 -3227px no-repeat;
+}

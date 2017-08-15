@@ -1,0 +1,299 @@
+.login-top {
+	height: 70px;
+	line-height: 70px;
+	background: #0282e5;
+	font-size: 1.5em;
+	color:#fff;
+	text-align: center;
+	box-shadow: 1px 1px 6px #000;
+}
+
+[sc= info] {
+	background: #fff;
+}
+
+/* icon */
+.login-icon {
+	background-image:url('../images/icon/login.png');
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.back {
+	width: 52px;
+	height: 47px;
+	background-position: 0 0;
+	position: absolute;
+	top:12px;
+	left:20px;
+}
+
+.info_wrap {
+	width:100%;
+	height:60px;
+	position:relative;
+}
+
+.info_bg {
+	width:100%;
+	height:100%;
+	background:url('../images/data/personal.jpg') no-repeat;
+	background-size:100% 100%;
+	opacity:0.5;
+	filter:alpha(opacity=50);
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+.info {
+	width:100%;
+	height: 80px;
+	background: url('/lgwx/static/system/wap/news/info_bg.jpg') no-repeat;
+	background-size:100% 100%;
+}
+.info .inner {
+	margin:0 auto;
+	width: 80%;
+}
+
+.info dt img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border:3px solid #fff;
+}
+
+
+.info .inner dl dd h3 {
+	font-size: 1.4em;
+}
+
+.info .button {
+	width:60px;
+	height:30px;
+	padding:0!important;
+	line-height:30px;
+	position:relative;
+	top:50%;
+	margin-top:-15px;
+	border-radius:2px;
+	font-size:0.8em;
+}
+
+
+.personal {
+	box-shadow:2px 2px 2px #dfdfdf;
+	border-radius:5px;
+}
+
+.personal a {
+	color:#0281e4;
+}
+
+.personal h3 {
+	font-size: 1.2em;
+	text-align: center;
+	color:#999;
+}
+
+
+.personal ul li {
+	background:#fff;
+	height:3.5rem;
+	line-height:3.5rem;
+	border-bottom:1px solid #dfdfdf;
+	border-top:none;
+	color:#0281e4;
+	width: 80%;
+	margin:0 auto;
+	font-size: 1.3em;
+}
+
+
+.personal ul li a.clearfix {
+	display:block;
+	width:90%;
+	height:100%;
+	margin:0 auto;
+}
+.personal ul li .icon {
+	display:block;
+	width:33px;
+	height:32px;
+	background:url('../../../global/images/lib/icon/icon.png') no-repeat;
+	position:relative;
+	top:50%;
+	margin-top:-16px;
+	margin-right:3em;
+}
+.personal ul li:nth-child(1) .icon {
+	background-position:0 -118px;
+}
+.personal ul li:nth-child(2) .icon {
+	background-position:-53px -118px;
+}
+.personal ul li:nth-child(3) .icon {
+	background-position:-111px -118px;
+}
+.personal ul li:nth-child(4) .icon {
+	background-position:-170px -118px;
+}
+.personal ul li:nth-child(5) .icon {
+	background-position:-229px -118px;
+}
+
+
+/* 我关注的商品 */
+.goods {
+	width: 95%;
+	margin:20px auto 0 auto;
+}
+
+.goods ul li {
+	width: 48%;
+	border:1px solid #ccc;
+	background: #fff;
+	box-sizing:border-box;
+}
+
+.goods ul li dl {
+	width: 90%;
+	margin:0 auto;
+	padding-top:10px;
+}
+
+.goods ul li:nth-child(even) {
+	float: right;
+}
+
+.goods ul li:nth-child(odd) {
+	float: left;
+}
+
+.goods ul li img {
+	width:100%;
+}
+.goods ul li dl {
+	background:#fff;
+}
+.goods ul li dt {
+	position:relative;
+}
+.goods ul li dd {
+	width:90%;
+	padding:1em 0;
+	overflow:hidden;
+	margin:0 auto;
+	font-size:0.8em;
+}
+
+/* 我关注的店铺 */
+.shop ul li.main {
+	padding:10px;
+	font-size: 1em;
+	border:1px solid #d0d0d0;
+	box-shadow: 1px 1px 2px #dedada;
+	margin-bottom: 10px;
+	position: relative;
+	background: #fff;
+}
+
+.shop ul li.main .status {
+	position: absolute;
+	right:0;
+	top:0;
+}
+
+
+.shop ul li dt {
+	width: 130;
+	float:left;
+	margin-right:12px;
+}
+
+.shop ul li dt img {
+	width: 130px;
+	height: 86px;
+}
+
+.shop ul li dd {
+	width: 130px;
+	height: 100px;
+	position: relative;
+	float:left;
+}
+
+.shop ul li dd .entry-btn {
+	position: absolute;
+	bottom:0;
+	left:0;
+	text-decoration: none;
+}
+
+/* diary */
+.diary-wrap ul li {
+	width: 100%;
+	height: 100px;
+	background: #fff;
+	border-bottom: 1px solid #dfdfdf;
+	position: relative;
+}
+
+.diary-wrap ul li .inner {
+	width: 80%;
+	margin:0 auto;
+	overflow: hidden;
+	padding:10px 0;
+}
+
+.diary-wrap ul li .line {
+	width: 14px;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+.diary-wrap ul li .time {
+	position: absolute;
+	right:10px;
+	top:10px;
+	color:#6da1c9;
+	font-size: 1.4em;
+	color:#68abd8;
+}
+
+.diary-wrap ul li h2 {
+	font-size: 1.8em;
+}
+
+.diary-wrap ul li h3 {
+	font-size: 1.2em;
+	color:#808080;
+}
+
+.diary-wrap ul li p a {
+	font-size: 1.2em;
+	color:#cdcdcd;
+}
+
+.diary-wrap ul li:nth-child(1n) .line {
+	background: #7bdd6c;
+}
+
+.diary-wrap ul li:nth-child(2n) .line {
+	background: #a0d5f5;
+}
+
+.diary-wrap ul li:nth-child(3n) .line {
+	background: #e37f7f;
+}
+
+.diary-wrap ul li:nth-child(4n) .line {
+	background: #dabf72;
+}
+
+
+
+

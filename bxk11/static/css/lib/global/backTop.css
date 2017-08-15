@@ -1,0 +1,8 @@
+#backTop178 {width:42px;height:50px;display: none;}
+#backTop178 .inner {width:42px;height:48px;background: #008fcc;cursor: pointer;text-align: center;color: #fff;}
+#backTop178 .inner a {color:#fff;}
+#backTop178 .inner a:hover {color:#fff;}
+#backTop178 .inner .text {position: relative;top:5px;}
+#backTop178 .back_top {margin:0 auto;position: relative;top:4px;}
+#backTop178 .book {position: relative;top:4px;left:11px;}
+#backTop178 .shadow_42 {background: url(../../../images/lib/bg/shadow_42.png) no-repeat;width:42px;height:3px;}

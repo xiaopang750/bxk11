@@ -1,0 +1,2 @@
+/*! fanwei 2014-03-10 */
+define("global/fnDo",[],function(t,e,n){function r(t){t=t||{},this.oWrap=t.oWrap,this.fnDo=t.fnDo||null,this.sTarget=t.sTarget||"",this.lock=!1}r.prototype={init:function(){this.addEvent()},addEvent:function(){var t,e,n;n=this,this.oWrap.on("click",function(r){n.lock||(this.lock=!0,t=$(r.srcElement||r.target),e=t.attr("script-role"),e==n.sTarget&&n.fnDo&&n.fnDo.call(n,t))})},req:function(t,e,n){var r=this;$.post(t,e,function(t){t.err?(oTip.text("操作失败,请重试"),r.lock=!1):(n&&n(t),r.lock=!1)},"json")}},n.exports=r});

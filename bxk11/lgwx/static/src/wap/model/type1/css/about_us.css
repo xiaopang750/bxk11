@@ -1,0 +1,24 @@
+.about_us {
+	background: #fff;
+	padding:10px;
+}
+
+.about_area {
+	position: relative;
+}
+
+#map {
+	width: 100%;
+	height: 300px;
+}
+
+.about_us p {
+	margin-bottom: 10px;
+}
+
+
+.status {
+	position: absolute;
+	right:-10px;
+	top:-10px;
+}

@@ -1,0 +1,334 @@
+.icon_user {
+	display: inline-block;
+	background-image: url('../../img/lib/icon/icon_user_menu.png');
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.icon_info {
+	display: inline-block;
+	background: url('../../img/lib/icon/info.png') no-repeat;
+	width: 20px;
+	height: 20px;	
+}
+
+.me {
+	background-position: 0 0;
+}
+
+.login-out {
+	background-position: 0 -201px;
+}
+
+/* icon-normal */
+
+/* layer-head */
+.icon-normal {
+	display: inline-block;
+	background: url('../../img/lib/icon/normal.png') no-repeat;
+		
+}
+
+.icon-normal.home {
+	width: 28px;
+	height: 28px;
+	background-position: 0 0;
+}
+
+.icon-normal.fans {
+	width: 40px;
+	height: 40px;
+	background-position: 0 -50px;
+}
+
+.icon-normal.reach {
+	width: 40px;
+	height: 40px;
+	background-position: 0 -103px;
+}
+
+.icon-normal.fav {
+	width: 40px;
+	height: 40px;
+	background-position: 0 -161px;
+}
+
+.icon-normal.sign {
+	width: 40px;
+	height: 40px;
+	background-position: 0 -213px;
+}
+
+.icon-normal.news {
+	width: 16px;
+	height: 14px;
+	background-position: -52px 0;
+}
+
+.icon-normal.del {
+	width: 17px;
+	height: 23px;
+	background-position: -104px -251px;
+}
+
+.icon-normal.down {
+	width: 24px;
+	height: 22px;
+	background-position: -104px -304px;
+}
+
+
+/* layer-home-start */
+.icon-normal.reg {
+	width: 29px;
+	height: 29px;
+	background-position: 0 -262px;
+}
+
+.icon-normal.manage-brand {
+	width: 28px;
+	height: 29px;
+	background-position: 0 -312px;
+}
+
+
+.icon-normal.manage-shop {
+	width: 31px;
+	height: 29px;
+	background-position: 0 -363px;
+}
+
+
+.icon-normal.bind-weixin {
+	width: 31px;
+	height: 29px;
+	background-position: 0 -420px;
+}
+
+
+.icon-normal.share {
+	width: 25px;
+	height: 29px;
+	background-position: 0 -465px;
+}
+
+/* icon-table */
+.icon-list-head {
+	display: inline-block;
+	background: url('../../img/lib/icon/normal.png') no-repeat;
+	width: 32px;
+	height: 32px;
+	float: left;
+	margin:10px 0 0 20px;
+}
+
+.icon-list-head.icon1 {
+	background-position: -55px -35px;
+}
+
+.icon-list-head.icon2 {
+	background-position: -55px -74px;
+}
+
+.icon-list-head.icon3 {
+	background-position: -55px -117px;
+}
+
+.icon-list-head.icon4 {
+	background-position: -55px -162px;
+}
+
+.icon-list-head.icon5 {
+	background-position: -55px -213px;
+}
+
+.icon-list-head.icon6 {
+	background-position: -55px -252px;
+}
+
+.icon-list-head.icon7 {
+	background-position: -55px -297px;
+}
+
+.icon-list-head.icon8 {
+	background-position: -55px -347px;
+}
+
+.icon-list-head.icon9 {
+	background-position: -55px -388px;
+}
+
+.icon-list-head.icon10 {
+	background-position: -55px -429px;
+}
+
+.icon-list-head.icon11 {
+	background-position: -55px -467px;
+}
+
+
+.icon-list-head.icon12 {
+	background-position: -104px -73px;
+}
+
+.icon-list-head.icon13 {
+	background-position: -104px -121px;
+}
+
+.icon-list-head.icon14 {
+	background-position: -104px -165px;
+}
+
+
+.icon-list-head.icon15 {
+	background-position: -104px -212px;
+}
+
+.icon-list-head.icon16 {
+	background-position: -104px -350px;
+}
+
+/* 密码 */
+.icon-list-head.icon17 {
+	background-position: -104px -387px;
+}
+
+
+
+/* icon-module */
+.icon-module {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background-image: url('../../img/lib/icon/module.png');
+	background-repeat: no-repeat;
+}
+
+.icon-module.icon-1 {
+	background-position: 0 0;
+}
+
+.layer-main .inner ul li.active .icon-1{
+	background-position: -58px 0;
+}
+
+
+
+
+.icon-module.icon-2 {
+	background-position: 0 -47px;
+}
+
+.layer-main .inner ul li.active .icon-2{
+	background-position: -58px -47px;
+}
+
+
+
+
+
+.icon-module.icon-3 {
+	background-position: 0 -94px;
+}
+
+.layer-main .inner ul li.active .icon-3{
+	background-position: -58px -94px;
+}
+
+
+
+
+
+
+.icon-module.icon-4 {
+	background-position: 0 -148px;
+}
+
+.layer-main .inner ul li.active .icon-4{
+	background-position: -58px -148px;
+}
+
+
+
+
+.icon-module.icon-5 {
+	background-position: 0 -208px;
+}
+
+.layer-main .inner ul li.active .icon-5{
+	background-position: -58px -208px;
+}
+
+
+
+.icon-module.icon-6 {
+	background-position: 0 -277px;
+}
+
+.layer-main .inner ul li.active .icon-6{
+	background-position: -58px -277px;
+}
+
+
+
+
+
+.icon-module.icon-7 {
+	background-position: 0 -342px;
+}
+
+.layer-main .inner ul li.active .icon-7{
+	background-position: -58px -342px;
+}
+
+
+
+.icon-module.icon-8 {
+	background-position: 0 -418px;
+}
+
+.layer-main .inner ul li.active .icon-8{
+	background-position: -58px -418px;
+}
+
+
+
+
+
+
+.icon-module.icon-8 {
+	background-position: 0 -418px;
+}
+
+.layer-main .inner ul li.active .icon-8{
+	background-position: -58px -418px;
+}
+
+
+/* global */
+.icon-global {
+	display: inline-block;
+	background-image: url('../../img/lib/icon/normal.png');
+}
+
+.icon-global.right {
+	width: 16px;
+	height: 12px;
+	background-position: -102px 0;
+	display: block;
+}
+
+.icon-global.wrong {
+	background-position: -102px -37px;
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+.icon-global.no {
+	background-position: -102px -37px;
+	width: 16px;
+	height: 16px;
+	display: none;
+}

@@ -1,0 +1,36 @@
+.form {
+	border:none;
+}
+
+.price {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.price td {
+	border:1px solid #ccc;
+	text-align: center;
+	padding:5px 0;
+}
+
+.price td img {
+	vertical-align: middle;
+	padding-left:5px;
+}
+
+.price .yes {
+	color: green;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.price .no {
+	color: red;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.table-title {
+	height: 100px;
+	line-height: 25px;
+}

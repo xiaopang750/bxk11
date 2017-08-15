@@ -1,0 +1,58 @@
+.focus {
+	background: #fff;
+	width: 95%;
+	margin:0 auto 20px auto;
+	padding:10px 0;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+.rec .main-list {
+	border:1px solid #ccc;
+	background: #fff;
+	box-shadow: 1px 1px 5px #ccc;
+	position: relative;
+	width: 95%;
+	margin:0 auto 20px auto;
+	color:#959595;
+}
+
+.rec .main-list .inner {
+	width: 96%;
+	margin:0 auto;
+	padding:10px 0;
+}
+
+.rec .main-list .title-area {
+	height: 50px;
+	line-height: 50px;
+}
+
+.rec .main-list  .content-area {
+	padding-top:10px;
+	border-top:1px dashed #d1d1d1;
+}
+
+.small-fav-logo {
+	width: 22px;
+	height: 22px;
+}
+
+.banner-img {
+	width: 100%;
+}
+
+.content-area ul li {
+	border-bottom: 1px dashed #d1d1d1;
+	padding:10px 0;
+}
+
+.content-area ul li a {
+	color: #959595;
+}
+
+.fav-num-text {
+	display: inline-block;
+	width: 30px;
+	text-align: right;
+}
+

@@ -1,0 +1,7 @@
+.show ul li img {width: 100%;display: block;}
+.show ul li dl {background: #fff;}
+.show ul li dt {position: relative;min-height: 50px;background: #ccc;}
+.show ul li dd {width: 90%;margin:0 auto;padding:0.5em 0;}
+.show .play {width: 42px;height:42px;border:1px solid #ee023f;background:rgba(255, 255, 255, 0.5);border-radius: 42px;position: absolute;bottom:18px;left:18px;}
+.show .trangle {width: 0; height: 0;border-top: 9px solid transparent;border-left: 18px solid #ee023f;  border-bottom: 9px solid transparent;
+position: absolute;margin:-8px 0 0 -8px;left:55%;top:50%;}

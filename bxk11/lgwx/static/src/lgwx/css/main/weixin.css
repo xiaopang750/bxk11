@@ -1,0 +1,640 @@
+textarea {
+	height: 200px!important;
+}
+
+.reply-foc {
+	height: 500px!important;
+}
+
+.add-box {
+	width: 390px;
+	height: 390px;
+	padding:10px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+}
+
+.add-box .close {
+	position: absolute;
+	right:10px;
+	top:10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.map {
+	width: 500px;
+	height:400px;
+	padding: 10px;
+	background: #fff;
+	border:1px solid #000;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px #ccc;
+	display: none;
+}
+
+.map .close {
+	cursor: pointer;
+	position: absolute;
+	right:10px;
+	top:10px;
+	z-index: 10000;
+}
+
+#map {
+	width: 480px;
+	height: 400px;
+	margin:0 auto;
+}
+
+.confirm-box {
+	display: none;
+	width: 574px;
+	height: 320px;
+}
+
+.confirm-box .content {
+	border:1px solid #cdcdcd;
+	padding:20px;
+	background: #f7f7f7;
+}
+
+.confirm-box .content p {
+	padding:10px 0;
+	font-size: 12px;
+}
+
+.confirm-box input {
+	/* width: 280px!important; */
+}
+
+.confirm-box .btn-wrap {
+	margin-right:37px;
+}
+
+
+/* 微信菜单 */
+.line {
+	position: absolute;
+	width: 753px;
+	height: 1px;
+	background: #ccc;
+	overflow: hidden;
+	top:40px;
+	left:0;
+}
+
+.weixin-box {
+	width: 753px;
+	height: 650px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+	box-shadow: 0 1px 1px 0 #e3e3e3;
+	box-shadow: 0 1px 1px 0 #e3e3e3;
+	border-radius: 3px;
+	margin:20px auto 0 auto;
+	position: relative;
+}
+
+.weixin-box .btn-success,.weixin-box .btn-default {
+	padding:2px 10px;
+}
+
+.weixin-box .menu {
+	width: 210px;
+}
+
+.weixin-box .main {
+	width: 540px;
+	border-left:1px solid #ccc;
+	height: 650px;
+}
+
+.weixin-box .menu-head {
+	height:40px;
+	line-height: 40px;
+	background-color: #f3f3f3;
+	position: relative;
+	overflow: hidden;
+}
+
+.weixin-box .menu-head .btn {
+	position: absolute;
+}
+
+.weixin-box .menu-head .add {
+	top:5px;
+	left:90px;
+}
+
+.weixin-box .menu-head .rank {
+	top:5px;
+	left:150px;
+}
+
+.weixin-box .menu-head .confirm {
+	top:5px;
+	left:90px;
+}
+
+.weixin-box .menu-head .cancel {
+	top:5px;
+	left:150px;
+}
+
+.weixin-box .menu-head .todoBack {
+	display: none;
+}
+
+.weixin-box .list {
+	height: 32px;
+	line-height: 32px;
+	position: relative;
+}
+
+.weixin-box .list-head {
+	/* position: relative;
+	line-height: 32px; */
+}
+
+.weixin-box .list-head.active {
+	background: #dae8f8;
+}
+
+.weixin-box .main-list.active .first {
+	background: #dae8f8!important;
+}
+
+.weixin-box .trangle {
+	position: absolute;
+	left: 14px;
+	top: 50%;
+	margin-top: -2px;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-width: 5px;
+	border-style: dashed;
+	border-color: transparent;
+	border-bottom-width: 0;
+	border-top-color: #aaa;
+	border-top-style: solid;
+}
+
+.weixin-box .icon_dot {
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	margin-top: -16px;
+	display: inline-block;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: middle;
+	font-size: 8px;
+	color: #aaa;
+}
+
+
+.weixin-box .inner_menu_link {
+	overflow: hidden;
+	height: 32px;
+	padding-left: 30px;
+	display: block;
+	color: #222;
+	text-decoration: none;
+}
+
+.weixin-box .inner_menu_link.active {
+	background: #dae8f8;
+}
+
+.weixin-box .inner_menu_link strong {
+	display: inline-block;
+	margin-top: -2px;
+	width: auto;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal;
+	max-width: 80px;
+	font-weight: 400;
+	font-style: normal;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.weixin-box .main-list {
+	border-top:1px solid #ccc;
+}
+
+.weixin-box .main-list ul .inner_menu_link {
+	padding-left:42px;
+}
+
+.weixin-box .func-btn-area {
+	display: none;
+}
+
+.weixin-box .menu_opr {
+	position: absolute;
+	top: 0;
+	right: 1em;
+	line-height: 32px;
+}
+
+.weixin-box .menu_opr a {
+	display: inline-block;
+	margin-left: .5em;
+	margin-top: -0.2em;
+	width: 14px;
+	height: 14px;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 100px;
+	overflow: hidden;
+	background-image:url("../../img/lib/icon/weixin_menu.png");
+	background-repeat:no-repeat;
+}
+
+.weixin-box .menu_opr a.add {
+	background-position: 0 -1395px;
+}
+.weixin-box .menu_opr a.add:hover {
+	background-position: 0 -1419px;
+}
+
+.weixin-box .menu_opr a.edit {
+	background-position: 0 -1443px;
+}
+.weixin-box .menu_opr a.edit:hover {
+	background-position: 0 -1467px;
+}
+
+.weixin-box .menu_opr a.del {
+	background-position: 0 -1491px;
+}
+.weixin-box .menu_opr a.del:hover {
+	background-position: 0 -1515px;
+}
+
+.weixin-box .menu_opr a.sort {
+	background-position: 0 -1539px;
+	display: none;
+	margin-top:7px;
+}
+
+.weixin-box .menu_opr a.show {
+	background-position: 0 -1539px;
+	display: inline-block;
+}
+
+.weixin-box .menu_opr a.sort:hover {
+	background-position: 0 -1563px;
+}
+
+
+.move.active {
+	border:2px solid #dae8f8;
+	background: #fff;
+	z-index: 100;
+	position: absolute;
+}
+
+.placeholder {
+	width: 192px;
+	height: 80px;
+	border:1px dashed #ccc;
+	margin:10px auto;
+	display: none;
+}
+
+.sub-wrap .placeholder {
+	height: 31px;
+	margin:10px auto;
+}
+
+.placeholder.show {
+	display: block;
+}
+
+
+/* 微信菜单-弹框 */
+.weixin-menu-add-box {
+	width: 750px;
+	height: 450px;
+	background-color: #f3f3f3;
+	overflow: hidden;
+	border: 1px solid #222;
+	border-radius: 3px;
+	display: none;	
+}
+
+.weixin-menu-add-box .title {
+	position: relative;
+	padding: 0 20px;
+	line-height: 38px;
+	height: 38px;
+	background-color: #e7e7e7;
+	background-image: -moz-linear-gradient(top,#f2f2f2 0,#e0e0e0 100%);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#f2f2f2),to(#e0e0e0));
+	background-image: -webkit-linear-gradient(top,#f2f2f2 0,#e0e0e0 100%);
+	background-image: -o-linear-gradient(top,#f2f2f2 0,#e0e0e0 100%);
+	background-image: linear-gradient(to bottom,#f2f2f2 0,#e0e0e0 100%);
+	border-bottom: 1px solid #c2c2c2;
+}
+
+.weixin-menu-add-box .title h3 {
+	font-size: 16px;
+	font-weight: bold;
+	color: #222;
+}
+
+.weixin-menu-close {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	width: 16px;
+	height: 16px;
+	line-height: 999em;
+	overflow: hidden;
+	background: url("../../img/lib/icon/weixin_menu.png") 0 -3227px no-repeat;
+}
+
+.weixin-menu-close:hover {
+	background-position: 0 -3253px;
+}
+
+.weixin-warning {
+	width: 56px;
+	height: 56px;
+	overflow: hidden;
+	background: url("../../img/lib/icon/weixin_menu.png") 0 -3529px no-repeat;
+}
+
+.weixin-menu-add-box .content {
+	padding: 90px 0 110px;
+}
+
+.weixin-menu-add-box .input_area {
+	margin-left:150px;
+}
+
+.weixin-menu-add-box .confrim-area {
+	margin: 0 20px;
+	padding: 25px 0 50px;
+	text-align: center;
+	border-top: 1px solid #c8c8c8;
+	box-shadow: inset 0 1px 0 #fbfbfb;
+	-moz-box-shadow: inset 0 1px 0 #fbfbfb;
+	-webkit-box-shadow: inset 0 1px 0 #fbfbfb;
+}
+
+.weixin-menu-add-box.confirm .content {
+	margin-left:210px;
+}
+
+.wrong-tip {
+	visibility: hidden;
+	color:#f00;
+}
+
+.wrong-tip.right {
+	visibility: hidden;
+}
+
+.wrong-tip.wrong {
+	visibility: visible;
+}
+
+
+/* weixin-right */
+
+.type-select {
+	width: 472px;
+	overflow: hidden;
+	margin:60px auto 0 auto;
+}
+
+.type-select h3 {
+	margin-bottom: 50px;
+}
+
+.type-select ul {
+	width: 492px;
+}
+
+.type-select ul li {
+	width: 144px;
+	margin-right:20px;
+	float: left;
+}
+
+.type-select ul li dt {
+	width: 144px;
+	height: 144px;
+	background-image: url("../../img/lib/icon/weixin_right.png");
+	background-repeat: no-repeat;
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.type-select ul li dd {
+	text-align: center;
+}
+
+.type-select ul li dt.message {
+	background-position: 0 0;
+}
+
+.type-select ul li dt.message:hover {
+	background-position: 0 -154px;
+}
+
+.type-select ul li dt.info {
+	background-position: 0 -924px;
+}
+
+.type-select ul li dt.info:hover {
+	background-position: 0 -1078px;
+}
+
+.type-select ul li dt.link {
+	background-position: 0 -310px;
+}
+
+.type-select ul li dt.link:hover {
+	background-position: 0 -463px;
+}
+
+.none-lay {
+	margin-top: 100px;
+}
+
+.text-wrap {
+	width: 500px;
+	margin:100px auto 0 auto;
+}
+
+.text-wrap .text-title {
+	height: 28px;
+	width: 498px;
+	background: #f5f7f6;
+	border: 1px solid #d3d3d3;
+}
+
+.text-wrap .text-title .text-logo {
+	width: 73px;
+	height: 28px;
+	background: #dad5d1;
+}
+
+.text-wrap .icon-text-logo {
+	margin-right: 3px;
+	margin-top: -2px;
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url("../../img/lib/icon/weixin_menu_top.png") 0 0 no-repeat;
+}
+
+.text-wrap textarea {
+	width: 478px;
+	height: 88px!important;
+	border:none;
+	padding:10px;
+	border-left: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+}
+
+.text-wrap .text-bottom {
+	width: 498px;
+	height: 28px;
+	border: 1px solid #d3d3d3;
+}
+
+.link-wrap {
+	margin:100px 0 0 100px;
+}
+
+.info-wrap {
+	width: 500px;
+	margin: 100px auto 0 auto;
+}
+
+.info-inner {
+	width: 458px;
+	height: 304px;
+	padding:20px;
+	border:1px solid #c2c2c2;
+	overflow: auto;
+}
+
+.photo-view {
+	width: 294px;
+	padding: 10px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+
+.photo-view .img-wrap {
+	width: 294px;
+	position: relative;
+}
+
+.photo-view .img-wrap img {
+	width: 294px;
+	display: block;
+}
+
+.photo-view .shadow-lay {
+	width: 294px;
+	height: 28px;
+	background: #000;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	left:0;
+	bottom:0;
+	z-index: 1;
+	position: absolute;
+}
+
+.photo-view .shadow-text {
+	width: 294px;
+	height: 28px;
+	line-height: 28px;
+	left:0;
+	bottom:0;
+	z-index: 2;
+	position: absolute;
+	color:#fff;
+} 
+
+.photo-sub-list li {
+	margin-bottom: 10px;
+}
+
+.photo-sub-list li img {
+	width: 50px;
+}
+
+.info-box {
+	width: 720px;
+	height: 420px;
+	padding:40px;
+	background: #fff;	
+	display: none;
+}
+
+.info-box-inner {
+	position: relative;
+	height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.info-box ul {
+	width: 730px;
+}
+
+.info-box ul li {
+	width: 208px;
+	margin-right:10px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding:10px;
+	margin:0 10px 10px 0;
+	float: left;
+	position: relative;
+	cursor:pointer;
+}
+
+.info-box ul li .mark {
+	width: 33px;
+	height: 34px;
+	background: url("../../img/lib/icon/weixin_menu.png") -2px -3858px;
+	position: absolute;
+	right:20px;
+	top:10px;
+	display: none;
+}
+
+.info-box ul li.active .mark {
+	display: block;
+}
+
+.confirm-info-btn {
+	position: absolute;
+	bottom: 10px;
+	right: 30px;
+}
+
+.save-wrap {
+	width: 755px;
+	padding:20px 0;
+}
+
+
+
+

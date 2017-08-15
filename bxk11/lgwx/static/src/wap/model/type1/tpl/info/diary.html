@@ -1,0 +1,15 @@
+{{each data.note_list}}
+<li sc="diary-list" link="{{$value.goods_url}}">
+	<div class="inner">
+		<h2 class="mb_5">{{$value.note_date}}</h2>
+		<h3 class="mb_5">地点：{{$value.shop_name}}</h3>
+		<p>
+			<a href="{{$value.goods_url}}">
+				{{cut $value.note_content 15}}
+			</a>
+		</p>
+	</div>
+	<div class="time">{{$value.note_time}}</div>
+	<div class="line"></div>
+</li>
+{{/each}}

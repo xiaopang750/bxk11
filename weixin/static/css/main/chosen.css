@@ -1,0 +1,12 @@
+.sort {width: 100%;height:3rem;background: #fff;line-height: 3rem;}
+.sort .inner {width: 90%;margin:0 auto;}
+.sort input[type=checkbox] {top:3px;}
+.sort .sort_icon {background: url('../../img/icon/icon.png') no-repeat -38px 0;display: inline-block;width: 20px;height:24px;vertical-align: middle;}
+.goods ul li img {width: 100%;}
+.goods ul li dl {background: #fff;}
+.goods ul li dt {position: relative;}
+.goods ul li dd {width: 90%;padding:1em 0;overflow: hidden;margin:0 auto;font-size: 0.8em;}
+.goods .fav {position: absolute;width: 42px;height:42px;background: url('../../img/icon/icon.png') no-repeat -351px -61px;left:19px;bottom: 19px;border:none;}
+.goods .fav.active {background: url('../../img/icon/icon.png') no-repeat -351px -3px;}
+.goods .sale {background: #ee023f;padding:0.2em 0.5em;border-radius:5px;color:#fff;position: relative;vertical-align: middle;}
+.goods .sale .top {position: absolute;display: inline-block;width: 22px;height:14px;background: url('../../img/icon/icon.png') no-repeat -362px -116px; position: absolute;top:-9px;margin-left:-11px;left:50%;}

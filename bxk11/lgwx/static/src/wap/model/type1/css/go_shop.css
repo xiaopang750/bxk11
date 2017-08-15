@@ -1,0 +1,30 @@
+.go_shop {
+	width: 95%;
+	margin:0 auto;
+	background: #fff;
+}
+
+.go_shop .inner {
+	padding: 10px;
+	position: relative;
+}
+
+td {
+	vertical-align: top;
+	padding:5px 0;
+}
+
+#map {
+	width: 100%;
+	height: 300px;
+}
+
+.focus {
+	position: relative;
+}
+
+.status {
+	position: absolute;
+	right: 0;
+	top: 0
+}

@@ -1,0 +1,85 @@
+.series .list .head {
+	padding: 20px;
+	background: #fff;
+	color: #000;
+	border-bottom: 1px solid #ccc;
+}
+.series .list .head a {
+	color: #000;
+}
+.series .list ul {
+	-display: none;
+}
+.series .list ul li {
+	padding: 10px 20px;
+	background: #f0f0f0;
+	border-bottom: 1px solid #ccc;
+	height: 30px;
+	overflow: hidden;
+}
+.series .list ul li:hover {
+	background: #ccc;
+}
+
+textarea {
+	height: 150px !important;
+}
+
+.uploads-wrap {
+	width: 429px;
+}
+
+.file-input {
+	width: 150px;
+}
+
+.goods-upload {
+	margin-right:10px;
+}
+
+.goods-upload li {
+	width: 60px;
+	height: 40px;
+	margin:0 10px 10px 0;
+	position: relative;
+	float:left;
+}
+
+.goods-upload li .close {
+	font-size: 14px;
+	color:#fff;
+	position: absolute;
+	right:5px;
+	top:5px;
+	cursor: pointer;
+}
+
+.selected-table li {
+	width: 60px;
+	margin:0 10px 10px 0;
+	float: left;
+}
+
+.selected-table li dl dt {
+	position: relative;
+	width: 60px;
+	height: 40px;
+}
+
+.selected-table li .close {
+	color: #fff;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 14px;
+	color: #f00;
+}
+
+.select-box {
+	width: 800px;
+	height: 500px;
+	background: #efefef;
+	display: none;
+}

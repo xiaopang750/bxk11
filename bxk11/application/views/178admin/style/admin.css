@@ -1,0 +1,285 @@
+@CHARSET "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body,input,textarea,select,button {
+	font: 12px Verdana, Lucida, Helvetica, Arial, sans-serif;
+	color: #222;
+}
+
+a {
+	cursor: pointer;
+	color: #948b21;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+* {
+	outline: none;
+}
+
+img {
+	border: 0;
+}
+
+table {
+	empty-cells: show;
+	border-collapse: collapse;
+}
+/*头部文件*/
+#header {
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	z-index: 100;
+	display: block;
+	width: 100%;
+	height: 38px;
+	position: fixed;
+	background: none scroll repeat #3F4042;
+	border-top: 1px solid #333436;
+	border-bottom: 1px solid #333436;
+}
+
+#header .logo {
+	float: left;
+	padding: 2px 0 0 18px;
+	width: 126px;
+}
+
+#header .loading {
+	float: left;
+	height: 38px;
+	width: 45px;
+}
+
+#header #topbar {
+	color: #D1D0D0;
+}
+
+#header #topmenu {
+	float: left;
+	height: 38px;
+}
+
+#topbar a {
+	color: #D1D0D0;
+}
+
+#topbar dl{
+	float: left;
+	position: relative;
+	width: 70px;
+	height: 100%;
+	border-left: 1px solid #535353;
+	border-right: 1px solid #292929;
+}
+
+#topbar dl.first {
+	border-left: 0 !important;
+	width: 0;
+}
+
+#topbar dl dt {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	cursor: pointer;
+}
+#topbar dl dt:hover{
+	background:none repeat scroll 0% 0% #676767;
+	border-bottom:none 0px;
+}
+
+#topbar dt a {
+	font-size: 14px;
+	display: block;
+	padding: 10px;
+	line-height: 18px;
+	overflow: hidden;
+}
+
+#topbar dd{
+	display:none;
+	position: absolute;
+	width: 141px;
+	border: 1px solid #3d3d3d;
+	background: none repeat scroll 0% 0% #676767;
+	top: 37px;
+	left:-2px;
+}
+
+#topbar li {
+	display: block;
+	list-style-type: none outside none;
+}
+
+#topbar dd div {
+	padding: 6px 10px;
+}
+
+#topbar dd div li {
+	border-top: 1px solid #7c7c7c;
+	border-bottom: 1px solid #555;
+}
+
+#topbar dd div li a {
+	display: block;
+	padding: 8px 11px;
+	overflow: hidden;
+}
+
+#topbar dd div li a:hover {
+	background: #737373 !important;
+}
+
+#topbar dd div li.first {
+	border-top: 0px none !important;
+}
+
+#topbar dd div li.last {
+	border-bottom: 0px none !important;
+}
+/*右端提示框*/
+#topbar #topinfo li{
+	float:right;
+	line-height:38px;
+	border-left: 1px solid #535353;
+	border-right: 1px solid #292929;
+	padding:0 5px;
+}
+#topbar #topinfo li a{
+	display:block;
+}
+#topbar #topinfo li:hover{
+	background: #737373 !important;
+}
+#topbar #reload,#goback{
+	cursor:pointer;
+	dispaly:bolck;
+	padding-top:1px !important;
+}
+/*中间文件定位*/
+#middle{
+	width:100%;
+	padding-top:40px;
+}
+/*左侧菜单栏*/
+#leftbar{
+	position:relative;
+	width:190px;
+	background:#4F5053;
+	z-index:50;
+	display:block;
+	float:left;
+	height:100%;
+}
+#leftbar ul li.start{
+	border-top:1px solid #353535;
+}
+#leftbar li{
+	line-height:20px;
+	border-top:1px solid #5f5f5f !important;
+	border-bottom:1px solid #353535 !improtant;
+}
+#leftbar ul li a{
+	color:#FFFFFF;
+	line-height:14px;
+	display:block;
+	position:relative;
+	margin:0px;
+}
+#leftbar ul li a span{
+	height:40px;
+	line-height:40px;
+	padding-left:30px;
+}
+#leftbar ul li a span.arrow{
+	background-repeat:no-repeat;
+	float:right;
+	background-position:0px 13px;
+}
+.arrow_down{
+	background-image:url(images/arrow_down.png);
+}
+.arrow_top{
+	background-image:url(images/arrow_top.png);
+}
+	
+
+	/*background-image:url(images/arrow_down.png);*/
+	/*background-image:url(images/arrow_top.png);*/
+
+#leftbar .tit{
+	border-bottom:1px #444 solid;
+}
+/*前面图标*/
+#leftbar ul li a i{
+	height:32px;
+	vertical-align:middle;
+	width:42px;
+	overflow:hidden;
+	float:left;
+	background-position:10px 5px;
+	background-repeat:no-repeat;
+}
+#leftbar ul li a i.i_home{
+	background-image:url(images/bg_home.png);
+}
+#leftbar ul li a i.i_art{
+	background-image:url(images/bg_art.png);
+}
+#leftbar ul li a i.i_pro{
+	background-image:url(images/bg_pro.png);
+}
+#leftbar ul li a i.i_set{
+	background-image:url(images/bg_set.png);
+}
+#leftbar ul li a i.i_user{
+	background-image:url(images/bg_user.png);
+}
+
+/*有子栏目的*/
+#leftbar .has_sub ul li{
+	padding:5px 40px;
+	background:#666;
+}
+#leftbar .has_sub ul li a{
+	line-height:30px;
+	text-align:center;
+}
+#leftbar .has_sub ul li a:hover{
+	background:#534f4e !important;
+	color:#ff9900 !important;
+}
+#leftbar .has_sub ul li a{
+	color:#FFF;
+}
+
+/*主文件*/
+#right{
+	float:left;
+}
+
+
+
+
+
+
+
+
+
+
+	

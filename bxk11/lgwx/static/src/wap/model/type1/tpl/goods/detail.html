@@ -1,0 +1,216 @@
+<li class="mb_20 main-list">
+	<dl>
+		<dt>
+			<!-- banner -->
+			<section class="focus">
+				<div widget-role="focus-wrap" widget-width="540" widget-height="300" widget-scale="0.9" style="margin:0 auto">
+					<ul class="focus_wrap" widget-role="focus-data-wrap">
+						{{each data.goods_piclist}}
+						<li><img src="{{$value}}" link=""/></li>
+						{{/each}}
+					</ul>
+					<div class="dot_wrap" widget-role="focus-dot-wrap">
+						
+					</div>
+				</div>
+			</section>
+
+			<!-- <div class="fav-num">
+				<span class="faver-logo"></span>
+				<span>{{data.goodslikes}}</span>
+			</div> -->
+			<!-- <input type="checkbox" class="fav {{if data.is_like == 1}}active{{/if}}" script-role="fav" is_like="{{data.is_like}}" target="{{data.like_url}}"> -->
+		</dt>
+		<dd>
+			<p>
+				商城价：<span class="pink font_14 mr_10">￥{{data.goods_member_price}}</span>
+				市场价格：<span class="thr ml_5 font_09">￥{{data.goods_price}}</span>
+			</p>
+			<div class="clearfix">
+				<div class="sale-bg fl mr_10">
+					<span class="ml_5">促销活动</span>
+				</div>
+				<div class="fl sale-info mt_1">
+					{{if !data.sales}}
+					暂无促销活动
+					{{if data.is_like == 0}}
+					，点击 
+					<a href="javascript:;" class="pink" script-role="fav" is_like="0" role="text-fav">收藏</a> 
+					随时关注
+					{{/if}}
+					{{else}}
+					{{data.sales}}
+					{{/if}}
+				</div>
+			</div>
+			<p>商品编号：{{data.goods_code}}</p>
+			<p>商品尺寸：{{data.goods_size}}</p>
+			<p>商品材质：{{data.goods_materials}}</p>
+		</dd>
+	</dl>
+	<div class="qcode" sc="qcode">
+		
+	</div>
+</li>
+
+<li class="match mb_20 main-list" sc="slide-wrap">
+	<div class="inner">
+		<div class="title-area clearfix">
+			<span class="fl">商品推荐</span>
+			{{if !data.goods_recommend_list}}
+				<span class="fr">没有相关搭配</span>
+			{{else}}
+				<span class="fr" sc="slide" islide="yes">收起&gt;&gt;</span>
+			{{/if}}
+		</div>
+		{{if data.goods_recommend_list}}
+			<div class="content-area" id="iscroll-wrap" sc="slide-content">
+				<ul class="clearfix" sc="roll-area">
+					{{each data.goods_recommend_list}}
+					<li sc="roll-list">
+						<a href="{{$value.goods_url}}">
+							<img src="{{$value.goods_pic}}">
+						</a>
+						<p>{{$value.goods_name}}</p>
+					</li>
+					{{/each}}
+				</ul>
+			</div>
+		{{/if}}
+	</div>
+</li>
+
+<li class="case mb_20 main-list" sc="slide-wrap">
+	<div class="inner">
+		<div class="title-area clearfix">
+			<span class="fl">装修案例</span>
+			{{if !data.goods_scheme_list}}
+				<span class="fr">没有相关案例</span>
+			{{else}}
+				<span class="fr" sc="slide" islide="yes">收起&gt;&gt;</span>
+			{{/if}}
+		</div>
+		{{if data.goods_scheme_list}}
+		<div class="content-area" sc="slide-content">
+			<ul class="clearfix">
+				{{each data.goods_scheme_list}}
+				<li class="clearfix">
+					<p class="fl">{{$value.scheme_name}}</p>
+					<div class="fr">
+						<span class="small-fav-logo"></span>
+						<span class="fav-num-text">{{$value.scheme_likes}}</span>
+					</div>
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+		{{/if}}
+	</div>
+</li>
+
+
+<li class="net mb_20 main-list" sc="slide-wrap">
+	<div class="inner">
+		<div class="title-area clearfix">
+			<span class="fl">经销网点</span>
+			{{if !data.shop_list}}
+				<span class="fr">没有相关经销网点</span>
+			{{else}}
+				<span class="fr" sc="slide" islide="yes">收起&gt;&gt;</span>
+			{{/if}}
+		</div>
+		{{if data.shop_list}}
+		<div class="content-area" sc="slide-content">
+			<ul class="clearfix">
+				{{each data.shop_list}}
+				<li class="clearfix">
+					{{if $index == 0}}<span class="tran"></span>{{/if}}
+					<span class="fl">{{$value.shop_name}}</span>
+					<a href="{{$value.shop_url}}" class="fr">
+						{{if $index == 0}}
+						店铺首页
+						{{else}}
+						进入店铺
+						{{/if}}
+					</a>
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+		{{/if}}
+	</div>
+</li>
+
+<li class="diary-content" sc="diary-content">
+	<h3>{{data.addnote.date}}</h3>
+	<p class="mb_5">{{data.addnote.showmsg}}</p>
+	<table cellspacing="0" cellpadding="0" border="0" width="100%">
+		<tr sc="point-list">
+			<td width="20%">外观：</td>
+			<td width="60%">
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+			</td>
+			<td width="20%" sc="score"></td>
+		</tr>
+		<tr sc="point-list">
+			<td>舒适度：</td>
+			<td>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+			</td>
+			<td sc="score"></td>
+		</tr>
+		<tr sc="point-list">
+			<td>价格：</td>
+			<td>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+				<span class="point" sc="point"></span>
+			</td>
+			<td sc="score"></td>
+		</tr>
+	</table>
+	<p class="mb_2">补充描述:</p>
+	<form>
+		<textarea class="mb_10" sc="save-content" time="{{data.addnote.date}}" desc="{{data.addnote.savemsg}}" shop_name="{{data.shop_name}}"></textarea>
+		<input type="submit" class="save fr" sc="save-btn" value="保存笔记">
+	</form>
+	<div class="clear"></div>
+</li>
+
+<li class="bottom-tool" sc="bottom-tool">
+	<div class="box">
+		<div class="flex2 faver-wrap">
+			<div class="bg" script-role="fav" is_like="{{data.is_like}}">
+				<span class="faver {{if data.is_like == 1}}active{{/if}}" sc="fav-icon"></span>
+				<span class="text" sc="fav-text">
+					{{if data.is_like == 0}}
+					马上收藏
+					{{else}}
+					已收藏
+					{{/if}}
+				</span>
+			</div>
+		</div>
+		<div class="flex2 diary-wrap" sc="diary-wrap">
+			<div class="bg">
+				<span class="diary"></span>
+				<span class="text">装修笔记</span>
+			</div>
+		</div>
+		<div class="flex1 rock-wrap">
+			<div class="bg" sc="backtop">
+				<span class="rock"></span>
+			</div>
+		</div>
+	</div>
+</li>

@@ -1,0 +1,24 @@
+.info_wrap {width: 100%;height:6rem;position: relative;}
+.info_bg {width: 100%;height:100%;background: url('../../img/data/personal.jpg') no-repeat;background-size: 100% 100%;opacity: 0.5;filter:alpha(opacity=50);position: absolute;left:0;top:0;z-index: 2;}
+.info {width: 100%;height:100%;position: absolute;left:0;top:0;z-index: 3;}
+.info .inner {width:90%;margin:0 auto;line-height: 6rem;position: relative;height:6rem;}
+.info .button {width: 60px;height: 30px;padding: 0!important;line-height: 30px;position: relative;top:50%;margin-top:-15px;border-radius: 2px;font-size: 0.8em;}
+
+.personal {box-shadow: 2px 2px 2px #dfdfdf;border-radius: 5px;}
+.personal ul li {background: #fff;height:3.5rem;line-height: 3.5rem;border: 1px solid #dfdfdf;border-top:none;}
+.personal ul li:first-child {border-top-left-radius: 5px;border-top-right-radius: 5px;border-top:1px solid #dfdfdf;}
+.personal ul li:last-child {border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.personal ul li a.clearfix {display: block;width: 90%;height:100%;margin:0 auto;}
+.personal ul li .icon {display: block;width: 32px;height: 32px;background: url('../../img/icon/icon.png') no-repeat;position: relative;top:50%;margin-top: -16px;margin-right: 1em;}
+.personal ul li:nth-child(1) .icon {background-position: 0 -115px;}
+.personal ul li:nth-child(2) .icon {background-position: -53px -115px;}
+.personal ul li:nth-child(3) .icon {background-position: -102px -115px;}
+.personal ul li:nth-child(4) .icon {background-position: -162px -115px;}
+.personal ul li:nth-child(5) .icon {background-position: -231px -115px;}
+.personal .myhome {background-position: -301px -115px!important;}
+
+.personal_detail ul li {width: 100%;height:3rem;background: #fff;border-radius: 5px;box-shadow: 1px 1px 1px #ccc;line-height: 3rem;font-size: 0.9em;}
+.personal_detail ul li .inner {width: 90%;margin:0 auto;}
+.personal_goods  ul li dl {background: #fff;}
+.personal_goods  ul li dl dd {background: #fff;width: 90%;margin:0 auto;padding:0.5em;padding-left: 0;padding-right: 0;}
+.personal_goods  img {width: 100%;display: block;}

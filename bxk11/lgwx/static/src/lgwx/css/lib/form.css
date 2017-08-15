@@ -1,0 +1,68 @@
+.list table {
+	border-collapse: collapse;
+}
+
+.list table td {
+	border:1px solid #cecece;
+	border-bottom: none;
+	text-align: center;
+	height: 30px;
+}
+
+.list table tr:first-child {
+	background: #eee;
+}
+
+.reply-list {
+	border-bottom: 1px solid #cdcdcd;
+}
+
+.reply-list table tr:nth-child(odd) {
+	background: #eee;
+}
+
+.reply-list table tr:nth-child(even) {
+	background: #f7f7f7;
+}
+
+/* table-title */
+.table-title {
+	height: 46px;
+	line-height: 46px;
+	overflow: hidden;
+	background: #f7f7f7;
+	background: -webkit-linear-gradient(top, #f7f7f7 0%, #e9e9e9 100%);
+	background: -moz-linear-gradient(top, #f7f7f7 0%, #e9e9e9 100%);
+	background: -ms-linear-gradient(top, #f7f7f7 0%, #e9e9e9 100%);
+	background: -o-linear-gradient(top, #f7f7f7 0%, #e9e9e9 100%);
+	border:1px solid #cecece;
+	border-bottom: none;
+}
+
+.table-title .text {
+	font-size: 14px;
+	float:left;
+	font-weight: bold;
+	margin:0 10px;
+	color:#424242;
+}
+
+.table-bottom {
+	height: 52px;
+	background: #f3f3f3;
+	border:1px solid #cfcfcf;
+	border-top:0;
+}
+
+.w_500 {
+	width: 310px;
+}
+
+.table-data-none {
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	background: #f3f3f3;
+	border: 1px solid #cfcfcf;
+	text-align: center;
+}

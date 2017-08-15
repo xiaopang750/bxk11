@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rmpano>
+  <env><type>cube</type><autoRotateStart>true</autoRotateStart><autoRotateOnIdle>true</autoRotateOnIdle><autoRotateDelay>5</autoRotateDelay><rate>0.4</rate><dragRate>1</dragRate><hotspotInfo>true</hotspotInfo><transition>camera</transition><debug>true</debug></env>
+  <vr width="100%" height="100%" x="0" y="0"/>
+  <ui><language fullScreen="FULLSCREENX" exitFullScreen="EXITFULLSCREENX" showMap="显示户型" hideMap="收启户型" showThumb="SHOW THUMBX" hideThumb="HIDE THUMBX" helpInfo="JIA178为您解决问题装修烦恼！"/><control file="/threed/_controls/control4.swf" x="50%" y="95%" width="100%" height="50" buttonWidth="32" buttonHeight="32" bgColor="FFFFFF" bgAlpha="0.6" initialShow="true" left="0,64" right="32,64" up="0,96" down="32,96" zoomin="0,128" zoomout="32,128" full="0,192" eixtFull="32,192" prev="0,0" next="32,0" thumb="0,32" map="32,32" show="32,160" hide="0,160" type_recommend="control6"/></ui>
+</rmpano>

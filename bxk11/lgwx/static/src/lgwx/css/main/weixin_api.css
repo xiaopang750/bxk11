@@ -1,0 +1,66 @@
+body {
+	background: #3a3168;
+	padding: 0;
+}
+
+.content {
+	margin: 0 auto;
+	text-align: left;
+	width: 707px;
+}
+
+.document {
+	margin: 40px 0px;
+	background: #f5f6f7;
+	box-shadow: 0px 1px 3px #ccc;
+}
+
+.normalTitle {
+	border-bottom: 1px solid #d7dde6;
+	border-radius: 10px 10px 0 0;
+	padding: 20px 40px;
+	text-shadow: 0 1px 1px #fff;
+}
+
+.normalTitle h2, .panelTitle h2, .processTitle h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.collapsible {
+	background: none repeat scroll 0 0 #FFFFFF;
+	padding: 20px;
+}
+
+.lastSection {
+	border: none;
+	margin-bottom: 0px;
+}
+
+.section {
+	padding: 0 0 20px 0;
+	margin: 0 0 20px 0;
+	border-bottom: 1px solid #eee;
+	overflow: hidden;
+}
+
+.CollapsiblePanel {
+	margin-bottom: 10px;
+	width: 870px;
+}
+
+.CollapsiblePanelTab.clicked {
+	background: #d7dde6;
+	border: 1px solid #C1C9D4;
+	margin-bottom: 20px;
+}
+
+.CollapsiblePanelTab {
+	border: 1px solid #DEDEDE;
+	border-radius: 3px 3px 3px 3px;
+	color: #626B8A;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 20px 40px 20px 20px;
+	text-shadow: 0 1px 0 white;
+}

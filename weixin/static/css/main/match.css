@@ -1,0 +1,12 @@
+.match .header {background: #2f3535;height:3rem;line-height: 3rem;width: 100%;}
+.match .header ul {width: 90%;margin:0 auto;}
+.match .header ul li:last-child {padding:0.2em!important;}
+.match .header ul li dl {width: 100%;}
+.match .number {display: inline-block;width: 14px;height:14px;text-align: center;line-height: 14px;border-radius: 14px;border:1px solid #fff;font-size: 0.6em;}
+.match .main dl {background: #fff;}
+.match .main li img {width: 100%;display: block;	}
+.match .main li dl dt,.match .main li dl dd {width: 50%;}
+.match .main li dl dd .inner {width: 90%;margin:1em;margin-bottom:0;}
+.match .main li:nth-child(odd) dt,.match .main li:nth-child(odd) dd {float: left;}
+.match .main li:nth-child(even) dt,.match .main li:nth-child(even) dd {float: right;}
+

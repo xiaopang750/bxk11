@@ -1,0 +1,15 @@
+.nav {
+	background: #412800;
+}
+
+.nav ul li a.active {
+	background: #86765d;
+}
+
+.level2 {
+	background: #412800;
+}
+
+.product_footer ul li.active {
+	background: #412800;
+}

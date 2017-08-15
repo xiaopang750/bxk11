@@ -1,0 +1,12 @@
+<ul class="level1">
+	<li class="first">
+		<a href="{{data.userspace}}">
+			<span class="person"></span>
+		</a>
+	</li>
+	{{each data.menulist}}
+	<li>
+		<a href="{{$value.menu_url}}" {{if data.currentPage == $value.menu_name}}class="active"{{/if}}>{{$value.menu_name}}</a>
+	</li>
+	{{/each}}
+</ul>

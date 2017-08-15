@@ -1,0 +1,45 @@
+.icon_user {
+	display: inline-block;
+	background-image: url('../../img/lib/icon/icon_user_menu.png');
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.icon_info {
+	display: inline-block;
+	background: url('../../img/lib/icon/info.png') no-repeat;
+	width: 20px;
+	height: 20px;	
+}
+
+.icon-co {
+	display: inline-block;
+	background: url('../../img/lib/icon/layer.png') no-repeat;
+}
+
+.icon-co.view {
+	width: 14px;
+	height: 14px;
+	background-position: 0 0;
+}
+
+.icon-co.like {
+	width: 14px;
+	height: 14px;
+	background-position: 0 -27px;
+}
+
+.icon-co.mirror-btn {
+	width: 16px;
+	height: 16px;
+	background-position: -33px 0;
+}
+
+.me {
+	background-position: 0 0;
+}
+
+.login-out {
+	background-position: 0 -201px;
+}

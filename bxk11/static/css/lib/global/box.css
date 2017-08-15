@@ -1,0 +1,61 @@
+#fancybox-loading { position: fixed; top: 50%; left: 50%; width: 40px; height: 40px; margin-top: -20px; margin-left: -20px; cursor: pointer; overflow: hidden; z-index: 1104; display: none }
+#fancybox-overlay { position:fixed;_position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1100; display: none;opacity:0.7 ;filter: alpha(opacity=70); }
+#fancybox-tmp { padding: 0; margin: 0; border: 0; overflow: auto; display: none; }
+#fancybox-wrap {position: absolute; top: 0; left: 0; padding: 20px; z-index: 1101; outline: none; display: none; }
+#fancybox-outer { position: relative; width: 100%; height: 100%; }
+#fancybox-content { width: 0; height: 0; padding: 0; outline: none; position: relative; overflow: hidden; z-index: 1102; border: 0px solid #fff; }
+#fancybox-hide-sel-frame { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: transparent; z-index: 1101; }
+#fancybox-error { color: #444; font: normal 12px/20px Arial; padding: 14px; margin: 0; }
+#fancybox-img { width: 100%; height: 100%; padding: 0; margin: 0; border: none; outline: none; line-height: 0; vertical-align: top; }
+#fancybox-frame { width: 100%; height: 100%; border: none; display: block; }
+#fancybox-left { left: 0px; }
+#fancybox-right { right: 0px; }
+#fancybox-left-ico, #fancybox-right-ico { position: absolute; top: 50%; left: -9999px; width: 30px; height: 30px; margin-top: -15px; cursor: pointer; z-index: 1102; display: block; }
+#fancybox-left:hover, #fancybox-right:hover { visibility: visible;    /* IE6 */ }
+#fancybox-left:hover span { left: 20px; }
+#fancybox-right:hover span { left: auto; right: 20px; }
+.fancybox-bg { _position: absolute;}
+
+
+#login_box {width:596px;height:320px;border:1px solid #e8e7e3;background: #fff;}
+#login_box .inner {margin-left:26px;}
+#login_box .head {height:40px;background: #f3f2f2;}
+
+#login_box .area .input_area {margin-bottom: 20px;}
+#login_box .area .input_area input {width:292px;height:41px;background: #fff;border:1px solid #ceced0;line-height: 41px;padding-left:2px;display: block;color:#666;}
+#login_box .mail {z-index: 3;}
+
+#login_box .area_left {width:296px;margin-top:20px;}
+#login_box .check_wrap {width:330px;height:39px;border:1px solid #ceced0;position: relative;}
+
+#login_box .check_wrap input {width:328px;height:39px;padding-left:2px;line-height: 39px;border:none;background: #fff;position: absolute;left:1px top:1px;color:#666;}
+
+#login_box .check_image {position: absolute;width:85px;height:39px;left:202px;top:0px;overflow: hidden;}
+
+#login_box .refresh_btn {position: absolute;right:13px;top:12px;}
+
+#login_box .select_type {width:332px;height:58px;background: #f5f5f6;}
+#login_box .select_type ul {padding:11px 0 0 13px;}
+#login_box .select_type ul li input {position: relative;top:2px;*left:5px;visibility: hidden;}
+
+#login_box .area_mid {background: none repeat scroll 0 0 #E7E7E7;display: inline;float: left;height: 150px;margin: 35px 0 0 31px;position: relative;width: 1px;}
+
+#login_box .area_mid span {background: none repeat scroll 0 0 #FFFFFF;display: block;height: 20px;left: -10px;line-height: 20px;position: absolute;text-align: center;top: 70px;width: 20px;}
+
+#login_box .area_right {display: inline;float: left;margin:37px 0 0 31px;width: 190px;position: relative;top:-16px;}
+
+#login_box .area_right ul li {margin-bottom: 24px;}
+
+#login_box .beautyCheck {display: block;overflow: hidden;text-indent: -9999px;background-image:url('../../../images/lib/button/button.png');_background-image:url('../../../images/lib/button/button.gif');background-repeat: no-repeat;background-position: -125px -11px;width:16px;height:16px;}
+
+#login_box .beautyCheck.actbcheck {background-position: -125px -50px;}
+
+#login_box .beautyRadio {display: block;overflow: hidden;text-indent: -9999px;background-image:url('../../../images/lib/button/button.png');_background-image:url('../../../images/lib/button/button.gif');background-repeat: no-repeat;background-position: -173px -34px;width:16px;height:16px;}
+
+#login_box .beautyRadio.actbradio {background-position: -173px -11px;}
+#login_box .remember_name input {visibility: hidden;}
+#login_box .arg input {visibility: hidden;}
+
+#login_box .autoTip ul li {height: 30px;line-height: 30px;background: #fff;cursor: pointer;}
+#login_box .autoTip ul li span {margin-left:10px;}
+#login_box .autoTip ul li.acter {background: #ccc;}

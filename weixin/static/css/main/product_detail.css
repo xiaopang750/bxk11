@@ -1,0 +1,10 @@
+.product_detail ul li img {width: 100%;}
+.product_detail ul li dl {background: #fff;}
+.product_detail ul li dt {position: relative;}
+.product_detail ul li dd {width: 90%;padding:1em 0;overflow: hidden;margin:0 auto;font-size: 0.8em;}
+.product_detail ul li dd p {margin-bottom: 0.5em;font-size: 1.2em;}
+.product_detail .fav {position: absolute;width: 42px;height:42px;background: url('../../img/icon/icon.png') no-repeat -351px -61px;left:19px;bottom: 19px;border:none;}
+.product_detail .fav.active {background: url('../../img/icon/icon.png') no-repeat -351px -3px;}
+.product_detail .fav:checked::after {content:'';}
+.product_detail .sale {background: #ee023f;padding:0.2em 0.5em;border-radius:5px;color:#fff;position: relative;vertical-align: middle;}
+.product_detail .sale .top {position: absolute;display: inline-block;width: 22px;height:14px;background: url('../../img/icon/icon.png') no-repeat -362px -116px; position: absolute;top:-9px;margin-left:-11px;left:50%;}

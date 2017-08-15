@@ -1,0 +1,91 @@
+.msg-roll-wrap {
+	position: relative;
+	width: 500px;
+	height: 20px;
+	overflow: hidden;
+}
+
+.msg-roll-inner {
+	white-space: nowrap;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+.msg-roll-inner span {
+	margin-right: 5px;
+}
+
+.shop {
+	height: 150px;
+	color: #fff;
+	padding:20px;
+	background: url('../../img/lib/bg/bg.png') repeat;
+}
+
+.shop .name {
+	display: inline-block;
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color:#fff;
+	font-size: 18px;
+	background: #428BCA;
+	border-radius: 5px;
+}
+
+.user_info {
+	color:#fff;
+}
+
+.info_left {
+	width: 48%;
+	padding:20px;
+	background: url('../../img/lib/bg/bg.png') repeat;
+	height: 150px;
+}
+
+.info_right {
+	width: 48%;
+}
+
+.info_right .block {
+	width: 48%;
+	height: 90px;
+	background: #000;
+	float: left;
+	margin-bottom: 10px;
+	margin-right:10px;
+	text-align: center;
+	font-size: 18px;
+	color:#fff;
+}
+
+.r_n {
+	margin-right:0!important;
+}
+
+.blue {
+	background: #428BCA!important;
+}
+
+.green {
+	background: #4CAE4C!important;
+}
+
+.module a {
+	display: block;
+	width: 200px;
+	height: 200px;
+	background: #ccc;
+	float: left;
+	margin:0 10px 10px 0;
+	line-height: 200px;
+	text-align: center;
+	font-size: 18px;
+	color:#fff;
+	background: #000;
+}
+
+

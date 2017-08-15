@@ -1,0 +1,30 @@
+body {
+	background: url('../../img/lib/bg/bg.jpg') repeat;
+}
+
+.login_box {
+	width: 358px;
+	height: 320px;
+	margin:-160px 0 0 -179px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	border-radius: 5px;
+	border:1px solid #d6d6d6;
+}
+
+.login_box .top {
+	height: 219px;
+	background: #fff;
+	border-bottom: 1px solid #d6d6d6
+}
+
+.login_box .bottom {
+	height: 100px;
+	background: #f9f9f9
+}
+
+.login_box .bottom .btn {
+	padding:5px 20px;
+} 
+

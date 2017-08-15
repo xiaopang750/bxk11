@@ -1,0 +1,14 @@
+{{each data.informationlist}}
+<li>
+	<dl class="clearfix">
+		<dt>
+			<a href="{{$value.si_url}}" class="ml_5">{{$value.si_title}}</a>
+		</dt>
+		<dd>
+			<a href="{{$value.si_url}}">
+				<img src="{{$value.si_pic}}" width="60" height="40">
+			</a>
+		</dd>
+	</dl>
+</li>
+{{/each}}

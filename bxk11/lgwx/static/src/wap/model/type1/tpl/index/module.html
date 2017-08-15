@@ -1,0 +1,20 @@
+{{each data.shortcut_menu}}
+<li sc="module-list">
+	<!-- <dl>
+		<dt>
+			<a href="{{$value.menu_url}}">
+				<img src="{{$value.menu_pic}}" alt="{{$value.menu_name}}">
+			</a>
+		</dt>
+		<dd>
+			<a href="{{$value.menu_url}}">
+				{{$value.menu_name}}
+			</a>
+		</dd>
+	</dl> -->
+	<a href="{{$value.menu_url}}">
+		<img src="{{$value.menu_pic}}">
+		<span>{{$value.menu_name}}</span>
+	</a>
+</li>
+{{/each}}

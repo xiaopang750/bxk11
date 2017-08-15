@@ -1,0 +1,142 @@
+.model ul li {
+	width: 176px;
+	height: 300px;
+	float: left;
+	margin:0 10px 10px 0;
+}
+
+.form .head {
+	height: 28px;
+	line-height: 28px;
+	background: #efefef;
+	border-bottom:1px solid #d5d5d5;
+}
+
+.model-wrap {
+	background: #f8f8f8;
+	overflow: hidden;
+}
+
+.model-main {
+	text-align: center;
+	border-right:1px solid #ccc;
+}
+
+.model-main img {
+	width:80%;
+	max-width: 300px;
+}
+
+.model-wrap .view {
+	height: 600px;
+	width: 400px;
+	border-right:1px solid #d5d5d5;
+	overflow: hidden;
+}
+
+.model-view {
+	height: 500px;
+	overflow: auto;
+	width: 80%;
+	margin:0 auto;
+	margin-top: 40px;
+}
+
+.model-view span {
+	display: inline-block;
+	width: 20%;
+	overflow: hidden;
+	float: left;
+	margin:0 40px 10px 0;
+}
+
+.model-view dl dt img {
+	width: 100%;
+}
+
+.model-view dl dd {
+	text-align: center;
+}
+
+.model-wrap .haha .main-name {
+	line-height: normal;
+	display: block;
+}
+
+.model-wrap .view img {
+	display:inline-block;
+	/* vertical-align: middle; */
+	height: 480px;
+}
+
+.model-wrap .list {
+	height: 550px;
+	overflow: auto;
+	width:300px;
+	padding-top:20px;
+	margin:0 auto;
+}
+
+.model-wrap .list div {
+	width: 80%;
+	margin:0 auto;
+}
+
+.model-wrap .list span {
+	display: inline-block;
+	width: 28%;
+	margin:0 5% 20px 0;
+	float:left;
+}
+
+.model-wrap .list span img {
+	width: 100%;
+}
+
+.model-wrap .list span dd {
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+}
+
+.model-bottom {
+	width: 100%;
+	height:48px;
+	background: #efefef;
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.btn-wrap {
+	width:30%;
+	text-align: center;
+	margin-top:6px;
+}
+
+.model-upload {
+	position: relative;
+	width: 98px;
+	height: 32px;
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.model-upload input {
+	width: 98px;
+	height: 32px;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 2;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	cursor: pointer;
+}
+
+.uploadLoading img {
+	position: absolute;
+	top: 9px;
+	left: 2px;
+}
+

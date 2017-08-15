@@ -1,0 +1,272 @@
+.reply-wrap {
+	padding:20px 0 0 20px;
+}
+
+.navlist {
+	width: 185px;
+	height: 450px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+
+.navlist ul li a {
+	display: block;
+	width: 185px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color:#000;
+	text-decoration: none;
+}
+
+.navlist ul li a.active {
+	background: #ccc;
+}
+
+.btn-default {
+	display: none;
+}
+
+.btn-default.act {
+	display: inline-block;
+}
+
+.text-wrap .text-title {
+	height: 28px;
+	width: 498px;
+	background: #f5f7f6;
+	border: 1px solid #d3d3d3;
+}
+
+.text-wrap .text-title .text-logo {
+	width: 73px;
+	height: 28px;
+	background: #dad5d1;
+}
+
+.text-wrap .icon-text-logo {
+	margin-right: 3px;
+	margin-top: -2px;
+	width: 22px;
+	height: 22px;
+	vertical-align: middle;
+	display: inline-block;
+	background: url("../../img/lib/icon/weixin_menu_top.png") 0 0 no-repeat;
+}
+
+.text-wrap textarea {
+	width: 478px;
+	height: 88px!important;
+	border:none;
+	padding:10px;
+	border-left: 1px solid #d3d3d3;
+	border-right: 1px solid #d3d3d3;
+}
+
+.text-wrap .text-bottom {
+	width: 498px;
+	height: 28px;
+	border: 1px solid #d3d3d3;
+}
+
+.add-wrap {
+	width: 500px;
+}
+
+.add-rule-btn {
+	display: block;
+}
+
+.lister {
+	width: 500px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+@media screen and() {
+
+}
+
+.list-title {
+	height: 40px;
+	line-height: 40px;
+	background: #ccc;
+	color: #000;
+}
+
+.key-word {
+	height: 50px;
+}
+
+.select {
+	border-bottom: 1px solid #ccc;
+}
+
+.select ul li {
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	margin-right: 10px;
+	float: left;
+}
+
+.select ul li .icon {
+	width: 22px;
+	height: 22px;
+	display: inline-block;
+	background: url('../../img/main/weixin/menu.png');
+	vertical-align: middle;
+}
+
+.select ul li .icon.pic {
+	background-position: 0 -32px;
+}
+
+.slide-wrap {
+	display: block;
+}
+
+.show-wrap {
+	width: 460px;
+	margin: 0 auto;
+	padding:20px 0;
+}
+
+.show-wrap textarea {
+	width: 434px!important;
+	height: 100px;
+	display: none;
+}
+
+.show-wrap textarea.active {
+	display: block;
+}
+
+
+.photo-view {
+	width: 294px;
+	padding: 10px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+
+.photo-view .img-wrap {
+	width: 294px;
+	position: relative;
+}
+
+.photo-view .img-wrap img {
+	width: 294px;
+	display: block;
+}
+
+.photo-view .shadow-lay {
+	width: 294px;
+	height: 28px;
+	background: #000;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	left:0;
+	bottom:0;
+	z-index: 1;
+	position: absolute;
+}
+
+.photo-view .shadow-text {
+	width: 294px;
+	height: 28px;
+	line-height: 28px;
+	left:0;
+	bottom:0;
+	z-index: 2;
+	position: absolute;
+	color:#fff;
+} 
+
+.photo-sub-list li {
+	margin-bottom: 10px;
+	height: 50px;
+	line-height: 50px;
+}
+
+.photo-sub-list li img {
+	width: 50px;
+}
+
+
+.save-area {
+	border-top:1px solid #ccc;
+	height: 40px;
+}
+
+.slide-wrap {
+	display: none;
+}
+
+.slide-wrap.active {
+	display: block;
+}
+
+
+.info-box {
+	width: 720px;
+	height: 420px;
+	padding:40px;
+	background: #fff;	
+	display: none;
+}
+
+.info-box-inner {
+	position: relative;
+	height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.info-box ul {
+	width: 730px;
+}
+
+.info-box ul li {
+	width: 208px;
+	margin-right:10px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding:10px;
+	margin:0 10px 10px 0;
+	float: left;
+	position: relative;
+	cursor:pointer;
+}
+
+.info-box ul li .mark {
+	width: 33px;
+	height: 34px;
+	background: url("../../img/lib/icon/weixin_menu.png") -2px -3858px;
+	position: absolute;
+	right:20px;
+	top:10px;
+	display: none;
+}
+
+.info-box ul li.active .mark {
+	display: block;
+}
+
+.weixin-menu-close {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	width: 16px;
+	height: 16px;
+	line-height: 999em;
+	overflow: hidden;
+	background: url("../../img/lib/icon/weixin_menu.png") 0 -3227px no-repeat;
+}
+
+
+
+
+

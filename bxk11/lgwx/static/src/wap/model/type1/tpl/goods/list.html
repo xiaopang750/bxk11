@@ -1,0 +1,16 @@
+{{each data.goods_list}}
+<li class="mb_10 sh">
+	<dl>
+		<dt>
+			<a href="{{$value.goods_url}}">
+				<img src="{{$value.goods_pic}}">
+			</a>
+		</dt>
+		<dd>	
+			<p class="mb_5">{{cut $value.goods_name 7}}</p>
+			<p class="pink">￥{{$value.goods_price}}</p>
+			<p script-role="fav" gid="{{$value.goods_id}" is_like="1">取消收藏</p>
+		</dd>
+	</dl>
+</li>
+{{/each}}

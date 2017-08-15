@@ -1,0 +1,54 @@
+.regist_login_wrap {width:1000px;height:473px;margin:0 auto;padding-top:100px;}
+.regist_login_wrap .shadow_1000 {margin:0;}
+.login,.regist {width:1000px;height:458px;background: url('../../../images/lib/bg/regist_login_bg.jpg') #fff no-repeat right bottom;}
+.regist_login_wrap .inner {margin-left:55px;padding-top:25px;}
+.regist_login_wrap .area .input_area {margin-bottom: 20px;}
+
+.regist_login_wrap .area .input_area input {width:318px;height:22px;background: #fff;border:1px solid #ceced0;line-height: 22px;display: block;color:#666;padding:10px 5px;}
+.regist_login_wrap .mail {z-index: 3;}
+
+.regist_login_wrap .area_left {width:332px;}
+.regist_login_wrap .check_code {border:1px solid #ceced0;position: relative;}
+
+.regist_login_wrap .check_code input {display:block;width:328px;height:39px;padding-left:2px;line-height: 39px;border:none;background: #fff;color:#666;}
+
+.regist_login_wrap .check_image {position: absolute;width:85px;height:39px;left:202px;top:0px;_top:1px;overflow: hidden;}
+
+.regist_login_wrap .refresh_btn {position: absolute;right:13px;top:12px;}
+
+.regist_login_wrap .select_type {width:332px;height:58px;background: #f5f5f6;overflow: hidden;}
+.regist_login_wrap .select_type ul {margin:0 0 0 13px;padding-top:8px;}
+.regist_login_wrap .select_type ul li input {position: relative;top:2px;visibility: hidden;}
+.regist_login_wrap .select_type ul li {width: 310px;height:20px;position: relative;}
+.regist_login_wrap .select_type ul li .text {position: absolute;left:15px;top:2px;}
+.regist_login_wrap .arg {height: 20px;position: relative;}
+.regist_login_wrap .arg .text {position: absolute;left:18px;top:0;}
+
+.regist_login_wrap .area_mid {background: none repeat scroll 0 0 #E7E7E7;display: inline;float: left;height: 150px;margin: 35px 0 0 41px;position: relative;width: 1px;}
+
+.regist_login_wrap .area_mid span {background: none repeat scroll 0 0 #FFFFFF;display: block;height: 20px;left: -10px;line-height: 20px;position: absolute;text-align: center;top: 70px;width: 20px;}
+
+.regist_login_wrap .area_right {display: inline;float: left;margin-left: 41px;width: 190px;position: relative;top:-16px;}
+
+.regist_login_wrap .area_right ul li {margin-bottom: 24px;}
+
+.regist_login_wrap .beautyCheck {display: block;overflow: hidden;text-indent: -9999px;background-image:url('../../../images/lib/button/button.png');_background-image:url('../../../images/lib/button/button.gif');background-repeat: no-repeat;background-position: -125px -11px;width:16px;height:16px;}
+
+.regist_login_wrap .beautyCheck.actbcheck {background-position: -125px -50px;}
+
+.regist_login_wrap .beautyRadio {display: block;overflow: hidden;text-indent: -9999px;background-image:url('../../../images/lib/button/button.png');_background-image:url('../../../images/lib/button/button.gif');background-repeat: no-repeat;background-position: -173px -34px;width:16px;height:16px;}
+
+.regist_login_wrap .beautyRadio.actbradio {background-position: -173px -11px;}
+.regist_login_wrap .remember_name input {visibility: hidden;}
+.regist_login_wrap .arg input {visibility: hidden;}
+
+.autoTip ul li {height: 30px;line-height: 30px;background: #fff;cursor: pointer;}
+.autoTip ul li span {margin-left:10px;}
+.autoTip ul li.acter {background: #ccc;}
+.btn_wrap {width: 332px;height:39px;position: relative;}
+
+
+ 
+    
+    
+    

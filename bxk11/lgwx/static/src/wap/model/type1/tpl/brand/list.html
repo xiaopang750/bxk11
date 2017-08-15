@@ -1,0 +1,22 @@
+{{each data}}
+<li class="main clearfix">
+	<dl>
+		<dt>
+			<a href="{{$value.brandinfo_url}}">
+				<img src="{{$value.apply_brand_img}}">
+			</a>
+		</dt>
+		<dd>
+			<ul>
+				<li><span class="bold mr_2">品牌名称:</span>{{cut $value.apply_brand_name 7}}</li>
+				<li><span class="bold mr_2">品牌描述:</span>{{cut $value.apply_brand_seodesc 10}}</li>
+				<a href="{{$value.brandinfo_url}}" class="entry-btn">
+					<span>进入展厅</span>
+					<span class="entry-logo"></span>
+				</a>
+			</ul>
+		</dd>
+	</dl>
+	<img src="/lgwx/static/system/wap/brand/{{if $value.certified_status == "0"}}no{{else if $value.certified_status == "1"}}yes{{/if}}.png" width="20%" class="status">
+</li>
+{{/each}}

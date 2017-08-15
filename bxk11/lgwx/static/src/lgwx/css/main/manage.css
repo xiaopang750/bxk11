@@ -1,0 +1,30 @@
+.layer {
+	width: 1000px;
+	height: 600px;
+	overflow: auto;
+	background: #fff;
+	position: fixed;
+	margin:-300px 0 0 -500px;
+	left:50%;
+	top:50%;
+	border-radius: 10px;
+	border:1px solid #000;
+	z-index: 5000;
+}
+
+.layer_select {
+	width: 100%;
+	margin: 0 auto;
+	padding:20px 0;
+}
+
+.layer .list {
+	width: 90%;
+	margin:0 auto;
+}
+
+textarea {
+	height: 150px!important;
+}
+
+

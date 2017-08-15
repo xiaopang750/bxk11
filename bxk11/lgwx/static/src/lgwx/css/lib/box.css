@@ -1,0 +1,36 @@
+/* dialog */
+.box {
+	width: 420px;
+	height: 200px;
+	border:1px solid #bcbcbc;
+	background: #fff;
+}
+
+.box h2 {
+	height: 48px;
+	line-height: 48px;
+	background: #e4e4e4;
+}
+
+.box p {
+	padding: 10px;
+	height: 80px;
+	border-top:1px solid #bcbcbc;
+	border-bottom:1px solid #bcbcbc;
+}
+
+.box.confirm .box-cancel {
+	display: block;
+}
+
+.box.close .box-close {
+	display: block;
+}
+
+.box.close .btn-success {
+	display: none;
+}
+
+.box.close .btn-danger {
+	margin-right:10px;
+}

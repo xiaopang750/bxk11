@@ -1,0 +1,127 @@
+define(function(require, exports, module) {
+	
+	var template = require('../../lib/template/template');
+
+	var request = require('../../lib/http/request');
+
+	function Leftnav()
+	{	
+
+		this.oContent  = $('[script-role = left_nav]');
+
+		this.render();
+
+		
+		this.aTitle = $('[script-role=click_title]');
+		this.aContent = $('[script-role=click_content]');
+		this.aTag = $('[script-role=click_tag]');
+		this.aBg  =$('[script-role=click_bg]');
+		this.sBgActClass = 'actb';
+		this.sTitleActClass = 'slide';
+		
+	}
+
+	Leftnav.prototype = {
+
+		init: function(str)
+		{	
+			var _this = this;
+
+			this.aTag.each(function(i){
+
+				if(str == _this.aTag.eq(i).html())
+				{		
+					_this.aTag.eq(i).addClass(_this.sBgActClass);
+
+					_this.aTag.eq(i).parents('[script-role=click_content]').show();
+
+					_this.aTag.eq(i).parents('[script-role=list_wrap]').find('[script-role=click_bg]').addClass(_this.sBgActClass);
+				}
+
+			});
+
+			this.addEvent();
+		},
+		render: function()
+		{
+			var tempId,
+				reqUrl,
+				oLeftNav,
+				html,
+				_this;
+
+			tempId = 'inspir_leftnav';
+			reqUrl = '/index.php/view/tag/classlist';
+			_this = this;
+
+			request({
+				url: reqUrl,
+				async:'false',
+				sucDo: function(data)
+				{
+					html = template.render(tempId, data);
+
+					_this.oContent.html(html);
+				}
+			});
+		},
+		addEvent: function()
+		{	
+			var _this = this;
+
+			this.oContent.on('click', '[script-role = list_head]', function(){
+
+
+
+			});
+
+			this.aHead.each(function(i){
+
+				_this.aTitle.eq(i).click(function(){
+
+					show($(this), i);
+
+				});
+
+
+				// 阻止双击默认事件
+				_this.aTitle.eq(i).mousedown(function(){
+
+					return false;
+
+				});
+
+			});
+
+			function show(oThis, i)
+			{	
+				var aBg,
+					aTitle,
+					aBgNow;
+
+				aBg = _this.oContent.find('[script-role = click_bg]');
+				aTitle = _this.oContent.find('[script-role = click_title]');					
+
+				if(oThis.find('[script-role = list_head]').hasClass(_this.sTitleActClass))return;
+
+				_this.oContent.find('[script-role = click_bg]').removeClass(_this.sBgActClass);
+
+				_this.oContent.find('[script-role = click_title]').removeClass(_this.sTitleActClass);
+
+				oThis.find('[script-role = click_title]')
+
+				oThis.addClass(_this.sTitleActClass);
+
+				_this.aContent.stop(true).slideUp();
+
+				_this.aContent.eq(i).stop(true).slideDown();
+
+				_this.aBg.eq(i).addClass(_this.sBgActClass);
+			}
+		}
+	}
+
+	module.exports = Leftnav;
+
+});
+

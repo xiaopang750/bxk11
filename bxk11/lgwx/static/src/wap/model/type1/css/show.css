@@ -1,0 +1,148 @@
+.show ul li img {
+	width:100%;
+	display:block;
+}
+.show ul li dl {
+	background:#fff;
+}
+.show ul li dt {
+	position:relative;
+	min-height:50px;
+	background:#ccc;
+}
+.show ul li dd {
+	width:90%;
+	margin:0 auto;
+	padding:0.5em 0;
+}
+.play {
+	width:42px;
+	height:42px;
+	background:#4f4f51;
+	border-radius:42px;
+	position:absolute;
+	bottom:18px;
+	left:18px;
+	display: block;
+}
+.trangle {
+	width:0;
+	height:0;
+	border-top:9px solid transparent;
+	border-left:18px solid #fcfcfc;
+	border-bottom:9px solid transparent;
+	position:absolute;
+	margin:-8px 0 0 -8px;
+	left:55%;
+	top:50%;
+}
+
+.top {
+	background: #fff;
+	width: 90%;
+	margin:20px auto 0 auto;
+	color:#7f7f7f;
+}
+
+.top-banner img {
+	width: 100%;
+}
+
+table td {
+	padding:5px 0;
+}
+
+.top .inner {
+	padding:10px;
+	box-shadow: 1px 1px 2px #ccc;
+}
+
+.main-list {
+	border:1px solid #ccc;
+	background: #fff;
+	box-shadow: 1px 1px 5px #ccc;
+	position: relative;
+	width: 90%;
+	margin:20px auto;
+	color:#7f7f7f;
+}
+
+.main-list .inner {
+	padding:10px;
+}
+
+.title-area {
+	height: 50px;
+	line-height: 50px;
+}
+
+.content-area {
+	padding-top:10px;
+	border-top:1px dashed #d1d1d1;
+	border-top:1px dashed #d1d1d1;
+	width: 100%;
+	height: 122px;
+	overflow: hidden;
+	padding-top:10px;
+}
+
+.match ul li {
+	float: left;
+	text-align: center;
+	color:#181818;
+	width: 94px;
+	margin-right:22px;
+}
+
+.match ul li:last-child {
+	margin-right: 0;
+}
+
+.match ul li img {
+	width: 90px;
+	height: 90px;
+	padding:1px;
+	border:1px solid #f1f1f1;
+}
+
+.show_fenye {
+	background: #4c4c4c;
+	font-size: 1.2em;
+}
+
+.show_fenye li {
+	border-right:1px solid #6c6c6c;
+	padding:10px 0;
+	text-align: center;
+	color:#fff;
+}
+
+.show_fenye li:nth-child(2) a,.show_fenye li:nth-child(3) a {
+	position: relative;
+	top:4px;
+}
+
+.show_fenye li a {
+	color: #fff;
+}
+
+.rtran {
+	width:0;
+	height:0;
+	border-top:12px solid transparent;
+	border-left:24px solid #fff;
+	border-bottom:12px solid transparent;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.ltran {
+	width:0;
+	height:0;
+	border-top:12px solid transparent;
+	border-right:24px solid #fff;
+	border-bottom:12px solid transparent;
+	display: inline-block;
+	vertical-align: middle;
+}
+

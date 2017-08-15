@@ -1,0 +1,15 @@
+.wrong_area {
+	background: #f7ea57;
+	border:1px solid #c0b536;
+	border-top-color: #843534;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	color: #494620;
+	font-size: 11px;
+	padding:5px;
+	visibility: hidden;
+}
+
+.wrong_area.wrong {
+	visibility: visible;
+}

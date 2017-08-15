@@ -1,0 +1,81 @@
+<div class="top">
+	<div class="inner">
+		<div class="top-banner rel">
+			<a href="{{data.room_url}}">
+				<img src="{{data.room_pic}}">
+			</a>
+			<a class="play" href="{{data.room_url}}">
+				<div class="trangle"></div>
+			</a>
+		</div>
+		<table cellpadding="0" cellspacing="0" border="0" class="mb_20">
+			<tr>
+				<td width="30%">空间功能：</td>
+				<td width="70%">{{data.room_style}}</td>
+			</tr>
+			<tr>
+				<td>面积：</td>
+				<td>{{data.room_size}}</td>
+			</tr>
+			<tr>
+				<td>装修风格：</td>
+				<td>{{data.room_style}}</td>
+			</tr>
+			<tr>
+				<td>样板间描述：</td>
+				<td>{{data.room_desc}}</td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+
+<div class="match main-list" sc="slide-wrap">
+	<div class="inner">
+		<div class="title-area clearfix">
+			<span class="fl">商品搭配</span>
+			{{if !data.goods_match_list}}
+				<span class="fr">没有相关搭配</span>
+			{{else}}
+				<span class="fr" sc="slide" islide="yes">收起&gt;&gt;</span>
+			{{/if}}
+		</div>
+		{{if data.goods_match_list}}
+		<div class="content-area" id="iscroll-wrap" sc="slide-content">
+			<ul class="clearfix" sc="roll-area">
+				{{each data.goods_match_list}}
+				<li sc="roll-list">
+					<a href="">
+						<img src="{{$value.gm_pic}}">
+						<p>{{$value.gm_name}}</p>
+					</a>
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+		{{/if}}
+	</div>
+</div>
+
+<div class="show_fenye">
+	<ul class="box">
+		<li class="flex1">
+			<a href="{{data.brand_url}}"><span class="fenyeback"></span></a>
+		</li>
+		<li class="flex1">
+			<a href="{{data.prev_url}}">
+				<span class="ltran mr_10 mt_10"></span>上一个
+			</a>
+		</li>
+		<li class="flex1">
+			<a href="{{data.last_url}}">
+				上一个<span class="rtran ml_10"></span>
+			</a>
+		</li>
+		<li class="flex1">
+			<span class="in_bl pt_5">
+				{{data.current_num}}/{{data.count_num}}
+			</span>
+		</li>
+	</ul>
+</div>

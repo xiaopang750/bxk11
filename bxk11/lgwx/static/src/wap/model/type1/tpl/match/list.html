@@ -1,0 +1,43 @@
+{{if err}}
+
+	<div class="tc">{{msg}}</div>
+
+{{else}}
+	
+	{{each data.list}}
+	<div class="main">
+		<div class="list">
+			<div class="header">
+				<ul class="box white font_09">
+					<li class="flex1 left">
+						<span class="number">{{$index}}</span>
+						<span>{{$value.pack_name}}</span>
+						<span class="font_08">原价</span>
+						<span class="thr font_09">￥ {{$value.product_price}}</span>   
+						<span>套餐价￥{{$value.goods_upset}}</span>
+					</li>
+				</ul>
+			</div>
+			<ul class="main">
+				{{each $value.product_list}}
+				<li>
+					<dl class="clearfix">
+						<dt>
+							<a href="{{$value.product_url}}"><img src="{{$value.product_pic}}"></a>
+						</dt>
+						<dd class="clearfix font_08">
+							<div class="inner">
+								<p>产品名称：{{$value.poduct_name}}</p>
+								<p>价格：￥{{$value.product_price}}元</p>
+							</div>
+						</dd>
+					</dl>
+				</li>
+				{{/each}}
+			</ul>
+		</div>
+	</div>
+	{{/each}}
+	
+{{/if}}
+

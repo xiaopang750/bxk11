@@ -1,0 +1,2 @@
+/*! fanwei 2014-03-10 */
+define("global/bodyParse-debug",[],function(){function o(){var o,n,c,t,e,l,i;if(window.location.search){for(o=decodeURIComponent(window.location.search.split("?")[1]),n=o.split("&"),t=n.length,i={},l=0;t>l;l++)c=n[l].split("="),e=c.length,i[c[0]]=c[1];return i}return null}return o});

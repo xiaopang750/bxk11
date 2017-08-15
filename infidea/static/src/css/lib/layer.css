@@ -1,0 +1,97 @@
+/* header */
+body {
+	width: 100%;
+	min-width: 1000px;
+	position: relative;
+}
+.header-wrap {
+	width: 100%;
+	height: 90px;
+	background: #fff;
+	border-bottom: 1px solid #e2e2e2;
+}
+.header-wrap h1 img {
+	display: none;
+}
+.header {
+	width: 1000px;
+	margin: 0 auto;
+}
+.header-wrap h1 {
+	margin-top: 15px;
+}
+.nav ul {
+	margin-top: 25px;
+}
+.nav ul li {
+	float: left;
+	font-size: 15px;
+	margin: 0 2px;
+}
+.nav ul li a {
+	padding: 10px 12px;
+	color: #bbb;
+	border-radius: 5px;
+	display: inline-block;
+	-webkit-transition: .2s;
+}
+.nav ul li a:hover {
+	background: #333;
+	color: #fff;
+}
+
+/* footer */
+.footer {
+	width: 100%;
+	font-size: 13px;
+	color: #fff;
+	padding: 51px 0px 89px 0px;
+	background-color: #343434;
+}
+.footer {
+	text-align: center;
+	position: relative;
+}
+.footer {
+	margin: 0;
+}
+.footer a {
+	color: #fff !important;
+	text-decoration: none !important;
+}
+.footer .weixinlogo {
+	position: fixed;
+	left: 10px;
+	bottom: 10px;
+	z-index: 5000;
+}
+.footer .weixinbig {
+	position: absolute;
+	left: 80px;
+	width: 258px;
+	height: 258px;
+	bottom: 3px;
+	display: none;
+	z-index: 5000;
+}
+.footer h5 {
+	color: #fff;
+	margin-bottom: 11px;
+	padding-bottom: 9px;
+	border-bottom: 4px solid #424242;
+}
+
+/* lead */
+.lead {
+	width: 100%;
+	background: #f2f2f2 url(../../img/lib/bg/slide-shadow.png) top repeat-x;
+}
+.lead h2 {
+	color: #929292;
+	text-shadow: 0px 1px 1px #fff;
+	text-transform: uppercase;
+	padding: 22px 0px 22px 0px;
+	font-size: 24px;
+	margin: 0 auto;
+	width: 1000px;
+}

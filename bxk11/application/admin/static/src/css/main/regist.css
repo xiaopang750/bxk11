@@ -1,0 +1,38 @@
+body {
+	background: url('../../img/lib/bg/bg.jpg') repeat;
+}
+
+.regist_box {
+	width: 560px;
+	height:640px;
+	position: absolute;
+	margin:-320px 0 0 -280px;
+	left:50%;
+	top:50%;
+	box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.5);
+}
+
+.regist_box .title {
+	width: 560px;
+	height: 40px;
+	line-height: 40px;
+	background: #3e4042;
+	color: #fff;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.regist_box .content {
+	height: 600px;
+	background: #fff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.regist_box .agree {
+	padding-top:0;
+	position: relative;
+	top:2px;
+	*top:0;
+}
+

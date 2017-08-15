@@ -1,0 +1,92 @@
+.reg-step li {
+	width: 197px;
+	height: 36px;
+	background: url('../../img/main/reg/step.png') no-repeat;
+	float: left;
+}
+
+.reg-step li span {
+	visibility: hidden;
+}
+
+.reg-step li.step1 {
+	background-position: 0 0;
+}
+
+.reg-step li.step2 {
+	width: 179px;
+	background-position: -197px 0;
+}
+
+.reg-step li.step3 {
+	background-position: -376px 0;
+}
+
+.reg-step li.step1.active {
+	background-position: 0 -73px;
+}
+
+.reg-step li.step2.active {
+	background-position: -197px -73px;
+}
+
+.reg-step li.step3.active {
+	background-position: -376px -73px;
+}
+
+textarea {
+	height: 88px!important;
+}
+
+
+.reg_suc {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	margin:-150px 0 0 -300px;
+	left:50%;
+	top:50%;
+}
+
+.reg_suc .text {
+	width: 500px;
+	font-weight: bold;
+	margin-top:5px;
+}
+
+.reg_suc .reg-icon {
+	display: inline-block;
+	width: 65px;
+	height: 69px;
+	background-image:url('../../img/main/reg/reg_sub_btn.png');
+	background-repeat: no-repeat;
+}
+
+.reg_suc .right {
+	background-position: 0 0;
+}
+
+.reg_suc .warning {
+	background-position: -83px 0;
+}
+
+.reg_suc .suc {
+	width: 70px;
+	background-position: -163px 0;
+}
+
+.reg_suc .fail {
+	background-position: -239px 0;
+}
+
+.reason {
+	width: 476px;
+	height: 150px;
+	border:1px solid #cccaca;
+	margin-left:100px;
+	padding:10px;
+}
+
+.type {
+	display: none;
+}

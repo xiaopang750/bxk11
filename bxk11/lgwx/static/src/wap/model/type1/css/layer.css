@@ -1,0 +1,278 @@
+/* body */
+body {
+	background: #f6f2f2;
+	width: 100%;
+	height: 100%;
+	font-family: 'Microsoft Yahei';
+}
+
+html,body {
+	height: 100%;
+}
+
+/* nav */
+.nav {
+	width: 100%;
+	background: #2f3535;
+	height: 3.5rem;
+	position: relative;
+	z-index: 20;
+	box-shadow: 0px 1px 4px #000;
+}
+.nav a {
+	color: #fff;
+}
+.nav ul {
+	width: 100%;
+	height: 100%;
+}
+.nav ul li {
+	text-align: center;
+	line-height: 3.5rem;
+	height: 90rem;
+	font-size: 1em;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}
+.nav ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.nav ul li a.active {
+	background: #161a1b;
+}
+.nav ul.level1 {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -o-box;
+	display: -ms-box;
+}
+
+.nav ul.level1 li.first {
+	position: relative;
+}
+
+.nav ul.level1 li.first a {
+	display: block;
+	width: 33px;
+	height: 33px;
+	margin:-16px 0 0 -16px;
+	position: absolute;
+	left:50%;
+	top:50%;
+}
+
+.nav ul.level1  li {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-o-box-flex: 1;
+	-ms-box-flex: 1;
+}
+.nav ul.level2 li {
+	float: left;
+	width: 20%;
+}
+.nav ul.level2 li:first-child {
+	width: 32px;
+	height: 100%;
+	padding: 0 20px;
+	position: relative;
+}
+.nav ul.level2 li:first-child a {
+	position: absolute;
+	margin-top: -16px;
+	top: 50%;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url('../images/button/button.png') no-repeat -28px 0;
+}
+.nav ul.level3 li {
+	float: left;
+}
+.nav ul.level3 li:first-child {
+	width: 10%;
+	height: 100%;
+	position: relative;
+}
+.nav ul.level3 li:first-child a {
+	display: block;
+	background: url('../images/button/button.png') no-repeat -109px 0px;
+	width: 17px;
+	height: 20px;
+	position: absolute;
+	margin: -10px 0 0 -9px;
+	top: 50%;
+	left: 50%;
+}
+.nav ul.level3 li:nth-child(2) {
+	width: 90%;
+	height: 100%;
+	text-align: center;
+}
+
+/* content */
+section.content {
+	width: 95%;
+	margin: 0 auto 20px auto;
+
+}
+
+/* footer */
+footer.main {
+	background: #160701;
+	text-align: center;
+	color: #c6c1bf;
+	border-top: 1px solid #cbcbcb;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 0.8rem;
+	height: 30px;
+	line-height: 30px;
+	-webkit-transition:.3s;
+	-moz-transtion:.3s;
+	-o-transtion:.3s;
+	-ms-transition:.3s;
+	bottom:-100px;
+}
+
+footer.main.active {
+	bottom:0;
+}
+
+footer.main a {
+	color: #c6c1bf;
+}
+
+/* fenye */
+.fenye {
+	width: 95%;
+	margin: 0 auto 10px auto;
+}
+.fenye li {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-box-flex: 1;
+	-o-box-flex: 1;
+	box-flex: 1;
+	background: #fff;
+	height: 3em;
+	line-height: 3em;
+	border-radius: 0.7em;
+	text-align: center;
+	margin-right: 0.5em;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+.fenye li:first-child {
+	max-width: 60px;
+}
+.fenye li:nth-child(3) {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+.fenye li:last-child {
+	margin: 0;
+}
+
+/* product_footer */
+.product_footer {
+	height: 63px;
+	width: 100%;
+}
+.product_footer .inner {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 63px;
+	width: 100%;
+}
+.product_footer ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.product_footer ul li {
+	background: #4c4c4c;
+	height: 63px;
+	text-align: center;
+	line-height: 63px;
+	border: 1px solid #6a6a6a;
+	border-bottom: none;
+	border-left: none;
+	font-size: 1.3em;
+}
+.product_footer ul li:last-child {
+	border-right: none;
+}
+.product_footer ul li span {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.product_footer li:first-child {
+	position: relative;
+}
+
+.product_footer ul li.active {
+	background: #412800;
+	color: #000;
+}
+.product_footer ul li a {
+	color: #fff;
+}
+.product_footer ul li.active a {
+	color: #fff;
+}
+
+/* loading */
+#cover {
+	width: 100%;
+	height: 500%;
+	background: #000;
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 3000;
+	opacity:;
+	min-height: 200%;
+}
+#jia178_loading {
+	width: 56px;
+	height: 60px;
+	position: fixed;
+	margin: -30px 0 0 -28px;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: rotate(0deg) translateZ(0);
+	-webkit-transition-duration: 0ms;
+	-webkit-animation-name: loading;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes loading {
+	from {
+		-webkit-transform: rotate(0deg) translateZ(0);
+	}
+	to {
+		-webkit-transform: rotate(360deg) translateZ(0);
+	}
+}
+
+/* level2 */
+.level2 {
+	height: 70px;
+	line-height: 70px;
+	background: #0282e5;
+	font-size: 1.5em;
+	color:#fff;
+	text-align: center;
+	box-shadow: 1px 1px 6px #000;
+}

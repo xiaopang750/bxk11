@@ -1,0 +1,204 @@
+body {
+	
+}
+
+.main {
+	width: 1000px;
+	margin:0 auto;
+	padding:75px 0;
+	-webkit-transform-style:preserve-3d;
+	-moz-transform-style:preserve-3d;
+	-ms-transform-style:preserve-3d;
+	-o-transform-style:preserve-3d;
+}
+
+.news {
+	width: 628px;
+	min-height: 600px;
+}
+
+.news ul li {
+	width: 628px;
+	padding-bottom: 65px;
+	border-bottom:4px solid #f2f2f2;
+	margin-bottom: 40px;
+	-webkit-transform:perspective(800px) rotateY(89deg);
+	-moz-transform:perspective(800px) rotateY(89deg);
+	-ms-transform:perspective(800px) rotateY(89deg);
+	-o-transform:perspective(800px) rotateY(89deg);
+	-webkit-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-o-transform-origin:0 0;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	-ms-transition:1s;
+	-o-transition:1s;
+	opacity: 0;
+}
+
+.news ul li.active {
+	-webkit-transform:perspective(800px) rotateY(0deg);
+	-moz-transform:perspective(800px) rotateY(0deg);
+	-ms-transform:perspective(800px) rotateY(0deg);
+	-o-transform:perspective(800px) rotateY(0deg);
+	opacity: 1;
+}
+
+.news ul li dt {
+	padding-bottom: 30px;
+}
+
+.news ul li dt img {
+	width: 628px;
+}
+
+.news ul li dd .info {
+	width: 122px;
+	color:#9d9d9d;
+}
+
+.news ul li dd .info i {
+	font-size: 50px;
+	position: relative;
+	top:-20px; 
+	width: 50px;
+	display: inline-block;
+}
+
+.news ul li dd .info .top {
+	border-bottom:4px solid #f2f2f2;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+.news ul li dd .detail {
+	width: 470px;
+}
+
+.news ul li dd p {
+	color:#a4a4a4;
+	line-height: 26px;
+	margin-bottom: 10px;
+}
+
+.news ul li dd a {
+	color:#000;
+}
+
+.news ul li dd a:hover {
+	text-decoration: underline;
+}
+
+.func {
+	width: 295px;
+}
+
+.func .search {
+	width: 219px;
+	height: 31px;
+	border:1px solid #d5d5d5;
+	border-radius: 5px;
+	background: #f0f0f0;
+	background: -webkit-linear-gradient(top, #eee 0%, #fff 100%);
+	background: -moz-linear-gradient(top, #eee 0%, #fff 100%);
+	background: -ms-linear-gradient(top, #eee 0%, #fff 100%);
+	background: -o-linear-gradient(top, #eee 0%, #fff 100%);
+	position: relative;
+	margin-bottom: 34px;
+}
+
+.func .search input {
+	position: absolute;
+	width: 178px;
+	height: 17px;
+	line-height: 17px;
+	left:8px;
+	top:7px;
+	border:none;
+	background: none;
+	outline: none;
+}
+
+.func .search .mirror {
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	right: 10px;
+	top:7px;
+	cursor: pointer;
+}
+
+.func .search .line {
+	width: 1px;
+	height: 17px;
+	position: absolute;
+	right:33px;
+	top:7px;
+	overflow: hidden;
+	background: #dbdbdb;
+}
+
+.func h3 {
+	font-size: 16px;
+	margin-bottom: 21px;
+}
+
+.func .classify  {
+	margin-bottom: 54px;
+	min-height: 178px;
+}
+
+.func .classify ul li {
+	height: 28px;
+	line-height: 28px;
+	border-bottom: 1px dashed #d0d0d0;
+}
+
+.func .classify ul li a.active {
+	color:#4183c4;
+}
+
+.hot {
+	min-height: 500px;
+}
+
+.hot ul li dt {
+	width: 75px;
+	height: 75px;
+	background: #ebebeb;
+}
+
+.hot ul li dt img {
+	padding:6px;
+	width: 63px;
+	height: 63px;
+}
+
+.hot ul li {
+	margin-bottom: 21px;
+}
+
+.hot ul li dd {
+	width: 196px;
+}
+
+.hot ul li dd h4 {
+	margin-bottom: 5px;
+	line-height: 24px;
+	color: #a4a4a4;
+}
+
+.hot ul li dd span {
+	color: #ccc;
+}
+
+.fenye {
+	width: 100%!important;
+}
+
+.fenye a {
+	margin:0 2px;
+	float: left;
+}
+

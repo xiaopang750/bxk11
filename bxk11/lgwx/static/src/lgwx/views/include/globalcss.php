@@ -1,0 +1,10 @@
+ <link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/reset.css">
+<link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/global.css">
+<link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/bg.css">
+<link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/button.css">
+<link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/icon.css">
+<link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/input.css">
+<link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/form.css">
+<link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/layer.css">
+<link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/box.css">
+<link rel="stylesheet" href="<?php echo APP_LINK ?>/css/lib/wrong.css">
